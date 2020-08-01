@@ -114,6 +114,7 @@ Vue.component('mission', {
 				toons: ['hound\'s_tooth', 'geonosian_spy_starfighter', 'geonosian_soldier\'s_starfighter', 'sun_fac\'s_geonosian_starfighter', 'gauntlet_starfighter', 'slave_i']
 			},
 			
+			
 
 
 		],
