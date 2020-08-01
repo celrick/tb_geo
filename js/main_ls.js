@@ -519,26 +519,26 @@ Vue.component('mission', {
 			type: 'usual',
 			position: 'right',
 			rewards: [
-				'Wave 1: 270 000',
-				'Wave 2: 420 000',
-				'Wave 3: 708 000',
-				'Wave 4: 1 080 000'
+				'Wave 1: 464 000',
+				'Wave 2: 775 500',
+				'Wave 3: 1 105 000',
+				'Wave 4: 1 627 500'
 				],
-			preferredSquads: [19],
+			preferredSquads: [20],
 			dangerousEnemies: []
 			},
-			{id: 7,
+			{id: 7, // GR Jedi mission
 			name: 'c8',
 			type: 'req',
 			position: 'right',
 			rewards: [
-				'Wave 1: 351 000',
-				'Wave 2: 546 000',
-				'Wave 3: 920 400',
-				'Wave 4: 1 404 000'
+				'Wave 1: 603 200',
+				'Wave 2: 1 008 150',
+				'Wave 3: 1 436 500',
+				'Wave 4: 2 115 750'
 				],
-			preferredSquads: [19],
-			dangerousEnemies: [2, 7]
+			preferredSquads: [20],
+			dangerousEnemies: []
 			},
 			{
 			id: 8,
@@ -546,12 +546,12 @@ Vue.component('mission', {
 			type: 'usual',
 			position: 'right',
 			rewards: [
-				'Wave 1: 270 000',
-				'Wave 2: 420 000',
-				'Wave 3: 708 000',
-				'Wave 4: 1 080 000'
+				'Wave 1: 464 000',
+				'Wave 2: 775 500',
+				'Wave 3: 1 105 000',
+				'Wave 4: 1 627 500'
 				],
-			preferredSquads: [19],
+			preferredSquads: [20],
 			dangerousEnemies: []
 			},
 			{
@@ -560,12 +560,12 @@ Vue.component('mission', {
 			type: 'usual',
 			position: 'right',
 			rewards: [
-				'Wave 1: 270 000',
-				'Wave 2: 420 000',
-				'Wave 3: 708 000',
-				'Wave 4: 1 080 000'
+				'Wave 1: 464 000',
+				'Wave 2: 775 500',
+				'Wave 3: 1 105 000',
+				'Wave 4: 1 627 500'
 				],
-			preferredSquads: [19],
+			preferredSquads: [20],
 			dangerousEnemies: []
 			},
 			{
@@ -574,12 +574,9 @@ Vue.component('mission', {
 			type: 'KAM',
 			position: 'right',
 			rewards: [
-				'Wave 1: 270 000',
-				'Wave 2: 420 000',
-				'Wave 3: 708 000',
-				'Wave 4: 1 080 000'
+				'1 whole KAM Shard'
 				],
-			preferredSquads: [19],
+			preferredSquads: [20],
 			dangerousEnemies: []
 			},
 			{
@@ -758,12 +755,15 @@ Vue.component('mission', {
 			{
 			id: 24,
 			name: 's2',
-			type: 'special',
+			type: 'usual',
 			position: 'right',
 			rewards: [
-				'20 GET2',
+				'Wave 1: 464 000',
+				'Wave 2: 775 500',
+				'Wave 3: 1 105 000',
+				'Wave 4: 1 627 500'
 				],
-				preferredSquads: [19],
+				preferredSquads: [20],
 			},
 			{
 			id: 25,
