@@ -445,12 +445,12 @@ Vue.component('mission', {
 			type: 'usual',
 			position: 'right',
 			rewards: [
-				'Wave 1: 187 500',
-				'Wave 2: 297 500',
-				'Wave 3: 500 000',
-				'Wave 4: 792 000'
+				'Wave 1: 511 500',
+				'Wave 2: 867 000',
+				'Wave 3: 1 242 500',
+				'Wave 4: 1 837 500'
 				],
-			preferredSquads: [19],
+			preferredSquads: [20],
 			dangerousEnemies: []
 			},	{
 			id: 1,
@@ -458,12 +458,9 @@ Vue.component('mission', {
 			type: 'req',
 			position: 'right',
 			rewards: [
-				'Wave 1: 187 500',
-				'Wave 2: 297 500',
-				'Wave 3: 500 000',
-				'Wave 4: 792 000'
+				'Wave 1: 2,750,000'
 				],
-			preferredSquads: [19],
+			preferredSquads: [20],
 			dangerousEnemies: []
 			}, {
 			id: 2,
@@ -471,12 +468,12 @@ Vue.component('mission', {
 			type: 'usual',
 			position: 'right',
 			rewards: [
-				'Wave 1: 187 500',
-				'Wave 2: 297 500',
-				'Wave 3: 500 000',
-				'Wave 4: 792 000'
+				'Wave 1: 511 500',
+				'Wave 2: 867 000',
+				'Wave 3: 1 242 500',
+				'Wave 4: 1 837 500'
 				],
-			preferredSquads: [19],
+			preferredSquads: [20],
 			dangerousEnemies: []
 			},
 			{
@@ -485,12 +482,10 @@ Vue.component('mission', {
 			type: 'usual',
 			position: 'right',
 			rewards: [
-				'Wave 1: 187 500',
-				'Wave 2: 297 500',
-				'Wave 3: 500 000',
-				'Wave 4: 792 000'
+				'Wave 1: 867 000',
+				'Wave 2: 1 837 500',
 				],
-			preferredSquads: [19],
+			preferredSquads: [20],
 			dangerousEnemies: []
 			},
 			{
@@ -665,6 +660,31 @@ Vue.component('mission', {
 			preferredSquads: [20],
 			dangerousEnemies: []
 		    },
+		    {
+		    id: 41,
+		    name: 'ls2',
+		    type: 'special',
+		    position: 'right',
+		    rewards: [
+				'20 GET2',
+				],
+			preferredSquads: [20],
+			dangerousEnemies: []
+		    },
+		    {
+		    id: 42,
+		    name: 'ls3',
+		    type: 'usual',
+		    position: 'right',
+		    rewards: [
+				'Wave 1: 511 500',
+				'Wave 2: 867 000',
+				'Wave 3: 1 242 500',
+				'Wave 4: 1 837 500'
+				],
+			preferredSquads: [20],
+			dangerousEnemies: []
+		    },
 			{
 			id: 17,
 			name: 'c18',
@@ -744,12 +764,15 @@ Vue.component('mission', {
 			{
 			id: 23,
 			name: 's1',
-			type: 'special',
+			type: 'usual',
 			position: 'right',
 			rewards: [
-				'15 GET2',
+				'Wave 1: 664 950',
+				'Wave 2: 1 127 100',
+				'Wave 3: 1 615 250',
+				'Wave 4: 2 388 750'
 				],
-			preferredSquads: [19],
+			preferredSquads: [20],
 			dangerousEnemies: []
 			},
 			{
@@ -803,6 +826,7 @@ Vue.component('mission', {
 			{id: 30, name: 'm2', type: 'platoon', position: 'right', requiredToons: [45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59]},
 			{id: 31, name: 'b2', type: 'platoon', position: 'right', requiredToons: [60, 61,62,63,64,65,66,67,68,69,70,71,72,73,74]},
 			{id: 32, name: 't3', type: 'platoon', position: 'left', requiredToons: [75, 76,77,78,79,80,81,82,83,84,85,86,87,88,89]},
+			{id: 40, name: 'lsp1', type: 'platoon', position: 'right', requiredToons: [77,77,77,77,77,77,77,77,77,77,77,77,77,77,77]},
 			{id: 33, name: 'm3', type: 'platoon', position: 'left', requiredToons: [90,91,92,93,94,95,96,97,98,99,100,101,102,103,104]},
 			{id: 34, name: 'b3', type: 'platoon', position: 'left', requiredToons: [105,106,107,108,109,110,111,112,113,114,115,116,117,118,119]},
 			{id: 35, name: 't4', type: 'platoon', position: 'left', requiredToons: [120,121,122,123,124,125,126,127,128,129,130,131,132,133,134]},

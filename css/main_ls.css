@@ -363,6 +363,18 @@ form input[type=submit]:hover {
 	top: 52%;
 	left: 93%;
 }
+.lsp1{
+	top: 39%;
+	left: 14%;
+}
+.ls2{
+	top: 45%;
+	left: 14%;
+}
+.ls3{
+	top: 48%;
+	left: 20%;
+}
 @media (min-width: 1700px) {
 	.map {
 		width: 80vw;
