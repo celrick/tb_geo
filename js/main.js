@@ -745,7 +745,7 @@ Vue.component('mission', {
 			{
 			id: 25,
 			name: 's3',
-			type: 'special',
+			type: 'WT',
 			position: 'left',
 			rewards: [
 				'1 Wat Tambor Shard',
