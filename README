@@ -1,0 +1,24 @@
+This tool is designed for helping guilds achieve their maximum potential
+ in geonosis tb. The original code was designed by 
+ https://github.com/jetkokos and was adapted freely under the licence
+ provided at https://github.com/jetkokos/tb_geo/blob/master/LICENSE.
+ 
+To launch the software, simply open the index.html file in your favourite
+web browser.
+
+
+
+
+TODO List
+Update platoons for ls tb
+Add icons for WT and KAM shards to add to DS/LS 
+Add teams to missions with fixed teams
+move around icons
+credit sources in index file
+
+Stretch goals
+add minimum power requirement
+add total number of each character needed in platoons
+add youtube links for people completing missions
+tidy up lines in LS
+executable for windows?

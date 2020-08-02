@@ -148,125 +148,125 @@ Vue.component('mission', {
 		],
 		platoons: [
 				[
-					'Old Daka',
-					'Darth Sidious',
-					'Talia',
-					'Darth Nihilus',
-					'Grand Admiral Thrawn',
-					'Jango Fett',
+					'BB-8',
+					'Hera Syndulla',
+					'Garazeb "Zeb" Orrelios',
+					'Chirrut Îmwe',
+					'General Kenobi',
+					'R2D2',
 				],
 				[
-					"Mother Talzin",
-					"Darth Maul",
-					"Mother Talzin",
-					"Sith Assassin",
-					"Emperor Palpatine",
-					"General Veers"
+					"Sabine Wren",
+					"Rose Tico",
+					"Amilyn Holdo",
+					"CUP",
+					"Stormtooper Han",
+					"Resistance Trooper"
 				],
 				[
-					"Nightsister Acolyte",
-					"Savage Opress",
-					"Old Daka",
-					"Sith Trooper",
-					"Royal Guard",
-					"Wampa"
+					"Resistance Pilot",
+					"Rey (Scavenger)",
+					"C3PO",
+					"Hera Syndulla",
+					'Garazeb "Zeb" Orrelios',
+					"Hermit Yoda"
 				],
 				[
-					"Nightsister Initiate",
-					"General Veers",
-					"Nightsister Acolyte",
-					"Darth Maul",
-					"Gar Saxon",
-					"Bossk"
+					"Finn",
+					"Baze Malbus",
+					"Rey (Jedi Training)",
+					"Visas Marr",
+					"C3PO",
+					"Amilyn Holdo"
 				],
 				[
-					"Talia",
-					"Sith Trooper",
-					"Nightsister Initiate",
-					"Savage Opress",
-					"TIE Fighter Pilot",
-					"Mother Talzin"
+					"R2D2",
+					"Barriss Offee",
+					"Barriss Offee",
+					"Sabine Wren",
+					"C3PO",
+					"C3PO"
 				],
 				[
-					"Bastila Shan (Fallen)",
-					"HK-47",
-					"Bastila Shan (Fallen)",
-					"HK-47",
-					"Darth Sidious",
-					"Captain Phasma"
+					"Finn",
+					'Garazeb "Zeb" Orrelios',
+					"Hermit Yoda",
+					"Enfys Nest",
+					"Ahsoka Tano",
+					"C3PO"
 				],
 				[
-					"General Veers",
-					"Bossk",
-					"Jango Fett",
-					"General Veers",
-					"Darth Maul",
-					"First Order Stormtrooper"
+					"Biggs Darklighter",
+					"Shaak-Ti",
+					"Visas Marr",
+					"Commander Luke Skywalker",
+					"Enfys Nest",
+					"General Kenobi"
 				],
 				[
-					"IG-86",
-					"IG-86",
-					"IG-86",
-					"IG-86",
-					"Savage Opress",
-					"First Order TIE Pilot"
+					"Finn",
+					"R2D2",
+					"Ahsoka Tano",
+					"Rose Tico",
+					"Biggs Darklighter",
+					"Chirrut Îmwe"
 				],
 				[
-					"IG-88",
-					"Wampa",
-					"Bossk",
-					"Wampa",
-					"Sith Assassin",
-					"First Order Officer"
+					"Visas Marr",
+					"Chewbacca",
+					"Rey (Jedi Training)",
+					"Luminara Unduli",
+					"L3-37",
+					"Ahsoka Tano"
 				],
 				[
-					"Darth Traya",
-					"Range Trooper",
-					"General Veers",
-					"Bossk",
-					"Sith Trooper",
-					"Kylo Ren"
+					"C3PO",
+					"Biggs Darklighter",
+					"Hera Syndulla",
+					"Visas Marr",
+					"BB-8",
+					"Commander Luke Skywalker"
 				],
 				[
-					"Captain Phasma",
-					"Jango Fett",
-					"Gar Saxon",
-					"Talia",
-					"Darth Sidious",
-					"Darth Revan"
+					'Garazeb "Zeb" Orrelios',
+					"Finn",
+					"Amilyn Holdo",
+					"R2D2",
+					"Barriss Offee",
+					"Sabine Wren"
 				],
 				[			
-					"First Order Stormtrooper",
-					"Range Trooper",
-					"Death Trooper",
-					"Mother Talzin",
-					"Darth Maul",
-					"Tusken Raider",
+					"C3PO",
+			        "L3-37",
+					"Pao",
+					"Luminara Unduli",
+					"Ahsoka Tano (Fulcrum)",
+					"Princess Leia",
 				],
 				[
-					"First Order TIE Pilot",
-					"Darth Traya",
-					"Royal Guard",
-					"Old Daka",
-					"Savage Opress",	
-					"Tusken Shaman"
+					"CUP",
+					"Stormtrooper Han",
+					"Resistance Trooper",
+					"Resistance Pilot",
+					"Rey (Scavenger)",	
+					"Commander Luke Skywalker"
 				],
 				[
-					"First Order Officer",	
-					"Bossk",
-					"Director Krennic",	
-					"Nightsister Acolyte",
-					"General Veers",
-					"Asajj Ventriss",
+					"Shaak-Ti",	
+					"Hermit Yoda",
+					"Finn",	
+					"Rex",
+					"Jawa Scavenger",
+					"Cody",
 					
 				],
 				[	
-					"Kylo Ren",
-					"Mother Talzin",
-					"TIE Fighter Pilot",
-					"Nightsister Initiate",	
-					"Sith Trooper",
-					"URoRRuR'R'R"
+					"Echo",
+					"Ugnaught",
+					"Biggs Darklighter",
+					"Princess Leia",	
+					"R2D2",
+					"Hera Syndulla"
 				],
 				/* 15 */
 				[
