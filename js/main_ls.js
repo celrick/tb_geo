@@ -126,7 +126,22 @@ Vue.component('mission', {
 				name: 'LS test squad',
 				toons: ['ahsoka_tano','ahsoka_tano','ahsoka_tano','ahsoka_tano','ahsoka_tano',] 
 			},
-			
+			{
+				id: 21, 
+				name: 'Required: GAS and Snips (21k+ Power)',
+				toons: ['general_skywalker','ahsoka_tano'] 
+			},
+			{
+				id: 22, 
+				name: 'Required: Kenobi and Clones (21k+ Power)',
+				toons: ['general_kenobi','cc-2224__cody_', 'clone_sergeant_-_phase_i'] 
+			},
+			{
+				id: 23,
+				name: 'Required: Shaak-ti and Her Clones (22k+ Power)',
+				toons: ['shaak_ti', 'arc_trooper', 'ct-21-0408__echo_', 'ct-5555__fives_', 'ct-7567__rex_']
+				
+			},
 			
 
 
@@ -306,7 +321,7 @@ Vue.component('mission', {
 			rewards: [
 				'1 whole KAM Shard'
 				],
-			preferredSquads: [20],
+			preferredSquads: [23],
 			dangerousEnemies: []
 			},
 			{
@@ -392,7 +407,7 @@ Vue.component('mission', {
 		    rewards: [
 				'21 GET2'
 				],
-			preferredSquads: [20],
+			preferredSquads: [22],
 			dangerousEnemies: []
 		    },
 		    {
@@ -534,7 +549,7 @@ Vue.component('mission', {
 				'Wave 3: 1 319 175',
 				'Wave 4: 1 790 100'
 				],
-			preferredSquads: [20],
+			preferredSquads: [21],
 			dangerousEnemies: []
 		    
 			},

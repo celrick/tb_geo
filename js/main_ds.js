@@ -58,19 +58,20 @@ Vue.component('mission', {
 				name: 'Geonosians',
 				toons: ['geonosian_brood_alpha', 'geonosian_soldier', 'geonosian_spy', 'poggle_the_lesser', 'sun_fac']
 			},
+			
 			{
 				id: 8,
-				name: 'Nute team',
+				name: 'Required: Nute team',
 				toons: ['nute_gunrey', 'b1_battle_droid', 'b2_super_battle_droid', 'droideka', 'ig100_magnaguard' ]
 			},
 			{
 				id: 9,
-				name: 'Dooku + Asajj',
+				name: 'Required: Dooku + Asajj (16.5k+ Power)',
 				toons: ['count_dooku', 'asajj_ventress']
 			},
 			{
 				id: 10,
-				name: 'Poggle Geos',
+				name: 'Required: Poggle Geos',
 				toons: ['poggle_the_lesser', 'geonosian_soldier', 'geonosian_spy', 'sun_fac', 'geonosian_brood_alpha']
 			},
 			{
@@ -112,6 +113,16 @@ Vue.component('mission', {
 				id: 18,
 				name: 'Chimaera with Hound\'s Tooth and bugs',
 				toons: ['hound\'s_tooth', 'geonosian_spy_starfighter', 'geonosian_soldier\'s_starfighter', 'sun_fac\'s_geonosian_starfighter', 'gauntlet_starfighter', 'slave_i']
+			},
+			{
+				id: 19,
+				name: 'Required: Geonosians (16.5k+ Power)',
+				toons: ['geonosian_brood_alpha', 'geonosian_soldier', 'geonosian_spy', 'poggle_the_lesser', 'sun_fac']
+			},
+			{
+				id: 20,
+				name: 'Required: Separatist Droids',
+				toons: ['general_grievous', 'b2_super_battle_droid', 'b1_battle_droid', 'droideka', 'ig100_magnaguard']
 			},
 			
 			
@@ -347,7 +358,7 @@ Vue.component('mission', {
 				'Wave 3: 910 000',
 				'Wave 4: 1 352 000'
 				],
-			preferredSquads: [6],
+			preferredSquads: [20],
 			dangerousEnemies: [2, 4, 6, 8, 10]
 			},
 			{
@@ -474,7 +485,7 @@ Vue.component('mission', {
 			rewards: [
 				'20 GET2',
 				],
-				preferredSquads: [7],
+				preferredSquads: [19],
 			},
 			{
 			id: 25,
@@ -484,7 +495,7 @@ Vue.component('mission', {
 			rewards: [
 				'1 Wat Tambor Shard',
 				],
-			preferredSquads: [7]
+			preferredSquads: [19],
 			},
 			{
 			id: 26,
