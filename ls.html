@@ -153,6 +153,13 @@
 							<div class="platoons" v-for="item in platoons[item]">{{item}}</div>
 					</div>
 			</div>
+			
+			<div class="mb-3" v-if="selectedMission.weblinks">
+				<p class="h4">Video guides</p>
+				<ul>
+					<li class="text-justify" v-for="item in selectedMission.weblinks">{{guides[item]}}</li>
+				</ul>
+			</div>
 
 
 			<div class="rewards mb-3" v-if="selectedMission.rewards">

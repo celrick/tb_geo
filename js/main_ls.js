@@ -142,6 +142,12 @@ Vue.component('mission', {
 				toons: ['shaak_ti', 'arc_trooper', 'ct-21-0408__echo_', 'ct-5555__fives_', 'ct-7567__rex_']
 				
 			},
+			{
+				id: 24,
+				name: 'Unknown',
+				toons: ['unknown', 'unknown','unknown','unknown','unknown',]
+				
+			},
 			
 
 
@@ -189,6 +195,9 @@ Vue.component('mission', {
         ['Ahsoka Tano (Fulcrum) 100'], //test platoon 12
         ['Ahsoka Tano  100'], //test platoon 13
 		],
+		guides:[
+		'AhnaldT101 example video: y2u.be/1q68IuXwA7Q'
+		],
 		missions: [{
 			id: 0,
 			name: 'c1',
@@ -200,7 +209,7 @@ Vue.component('mission', {
 				'Wave 3: 1 242 500',
 				'Wave 4: 1 837 500'
 				],
-			preferredSquads: [20],
+			preferredSquads: [24],
 			dangerousEnemies: []
 			},	{
 			id: 1,

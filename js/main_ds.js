@@ -124,7 +124,12 @@ Vue.component('mission', {
 				name: 'Required: Separatist Droids',
 				toons: ['general_grievous', 'b2_super_battle_droid', 'b1_battle_droid', 'droideka', 'ig100_magnaguard']
 			},
-			
+			{
+				id: 21,
+				name: 'Unknown',
+				toons: ['unknown', 'unknown','unknown','unknown','unknown',]
+				
+			},
 			
 
 
@@ -170,6 +175,9 @@ Vue.component('mission', {
         [],//11 (less areas in DS)
         ['Ahsoka Tano (Fulcrum) 100'], //test platoon 12
         ['Ahsoka Tano  100'], //test platoon 13
+		],
+		guides:[
+		'AhnaldT101 example video: y2u.be/1q68IuXwA7Q'
 		],
 		missions: [{
 			id: 0,
@@ -505,6 +513,8 @@ Vue.component('mission', {
 			rewards: [
 				'40 GET2',
 				],
+		    //weblinks: [],
+		    preferredSquads: [21],
 			dangerousEnemies: [0, 2, 4, 7]
 			},
 			/* Platoons */

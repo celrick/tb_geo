@@ -138,6 +138,13 @@
 					<li class="text-justify" v-for="item in selectedMission.dangerousEnemies">{{enemies[item]}}</li>
 				</ul>
 			</div>
+			
+			<div class="mb-3" v-if="selectedMission.weblinks">
+				<p class="h4">Video guides</p>
+				<ul>
+					<li class="text-justify" v-for="item in selectedMission.weblinks">{{guides[item]}}</li>
+				</ul>
+			</div>
 
 			<div class="mb-3 " v-if="selectedMission.requiredToons">
 				<p class="h4">Required toons</p>
