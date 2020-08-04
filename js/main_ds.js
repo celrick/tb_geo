@@ -177,7 +177,12 @@ Vue.component('mission', {
         ['Ahsoka Tano  100'], //test platoon 13
 		],
 		guides:[
-		'AhnaldT101 example video: y2u.be/1q68IuXwA7Q'
+		'AhnaldT101 example video: y2u.be/1q68IuXwA7Q',
+		'AhnaldT101 acklay video guide: www.youtube.com/watch?v=Y1Zd1_0f-lY',
+		'Warrior acklay video walkthrough: www.youtube.com/watch?v=4xILiDi_Q8o',
+		'McMole acklay and wat tambor video guide: www.youtube.com/watch?v=MSaZL5kjGis',
+		'DBofficial125 wat tambor guide: www.youtube.com/watch?v=jE_DSfGt16c&t=666s',
+		'ZGaming wat tambor guide: www.youtube.com/watch?v=mET94Lvvehc'
 		],
 		missions: [{
 			id: 0,
@@ -493,6 +498,7 @@ Vue.component('mission', {
 			rewards: [
 				'20 GET2',
 				],
+				weblinks: [1,2,3],
 				preferredSquads: [19],
 			},
 			{
@@ -503,6 +509,7 @@ Vue.component('mission', {
 			rewards: [
 				'1 Wat Tambor Shard',
 				],
+		    weblinks: [3,4,5],
 			preferredSquads: [19],
 			},
 			{
