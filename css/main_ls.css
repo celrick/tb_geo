@@ -252,30 +252,30 @@ form input[type=submit]:hover {
 	top: 34%;
 	left: 54%;
 }
-.c13 {
-	top: 38%;
-	left: 61%;
+.c13 {/*P2 top special*/
+	top: 36%;
+	left: 65%;
 }
-.c14 {
+.c14 {/*P2 middle*/
 	top: 52%;
 	left: 55%;
 }
-.c15 {
+.c15 {/*P2 middle*/
 	top: 46%;
 	left: 67%;
 }
-.c16 {
+.c16 {/*P2 bottom*/
 	top: 74%;
 	left: 59%;
 }
-.c17 {
+.c17 {/*P2 bottom*/
 	top: 65%;
 	left: 63%;
 
 }
-.ls1 {
-    top: 69% ;
-    left: 69%;
+.ls1 {/*P2 bottom special*/
+    top: 77% ;
+    left: 65%;
 }
 .c18 {
 	top: 26%;
@@ -289,9 +289,9 @@ form input[type=submit]:hover {
 	top: 56%;
 	left: 78%;
 }
-.c21 {
-	top: 30%;
-	left: 85%;
+.c21 {/*P1 middle special*/
+	top: 38%;
+	left: 90%;
 }
 .c22 {
 	top: 68%;
@@ -355,8 +355,8 @@ form input[type=submit]:hover {
 	top: 25%;
 	left: 76%;
 }
-.m4 {
-	top: 42%;
+.m4 {/*P1 middle platoon */
+	top: 50%;
 	left: 86%;
 }
 .b4 {
