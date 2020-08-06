@@ -153,19 +153,18 @@ Vue.component('mission', {
 
 		],
 		enemies: [
-			'Mace Windu (instantly kills Jango Fett)',     																				//0  (counter Jango)                   
-			"CT-5555 'Fives' (Enemies killed by clone troopers can't be revived)",    													//1 (counter Sion, NS, Wat Tambor)
-			'Clone Commander (Speed of all characters equals 150)', 																	//2  (counter Darth Revan)           
-			'Padawan Anakin (Strong aoe)',																								//3 (counter NS)                           
-			'ARC Trooper',                               																				//4
-			'CT-7567 "Rex" (Clones receive 15% tm when suffer critical hit)',															//5 (counter Geonosians, General Grievous)                               
-			'Shaak-Ti',																													//6 (counter all, Sith Empire or Traya prefered)                                 
-			'CC-2224 "Cody"',                          																					//7
-			'Ki-Adi Mundi',                            																					//8
-			'General Kenobi (Paired with Padme; GR allies gain protection up when are attacked out of turn, tm can\'t be removed',  	//9
-			'Clone Trooper Medic',                                                                                                  	//10
-			'Padme Amidala (Galactic republic allies gain protection up when are attacked out of turn; tm can\'t be removed)',     		//11 (counter Geonosians, General Grievous)                          
-			'Grand Master Yoda (High tenacity, gain tm when resists debuffs)',                       									//12
+		'B2 Rocket Droid',//0
+		'Command Battle Droid',//1
+	    'Count Dooku', //2
+	    'General Grevious',//3
+	    'General Kalani',//4
+	    'Geonosian Brood Alpha', //5
+	    'Jango Fett',//6
+	    'Nute Gunray', //7	
+	    'Poggle the Lesser',//8
+	    'Reek',//9
+	    'T-Series Tactical Droid',//10
+	    'Wat Tambor', //11          									
 		],
 		platoons: [
 		["Han's Millennium Falcon", '7', 'Ebon Hawk', '6', 'BTL-B Y-wing', '6', 'Vulture Droid', '5', "Plo Koon's Jedi Starfighter", '5', "Wedge Antilles's X-wing", '5', 'CT-7567 "Rex"\'s ARC-170', '5', 'Hyena Bomber', '4', "Emperor's Command Shuttle", '4', "Biggs Darklighter's X-wing", '4', "Ahsoka Tano's Jedi Starfighter", '3', "Geonosian Spy's Starfighter", '3', "Cassian's U-wing", '3', 'Gauntlet Starfighter', '3', 'Phantom II', '3', "Poe Dameron's X-wing", '3', 'TIE Silencer', '2', "Jedi Consular's Starfighter", '2', 'Scimitar', '2', "Bistan's U-wing", '2', 'Xanadu Blood', '2', 'Umbaran Starfighter', '2', 'First Order TIE FIghter', '1', 'TIE Reaper', '1', 'TIE Advanced x1', '1', "Lando's Millennium Falcon", '1', "Sun Fac's Starfighter", '1', 'IG-2000', '1', "Rey's Millennium Falcon", '1', 'Ghost', '1', "Kylo's Command Shuttle", '1'
@@ -337,7 +336,7 @@ Vue.component('mission', {
 				],
 		    weblinks: [0,1,2],
 			preferredSquads: [23],
-			dangerousEnemies: []
+			dangerousEnemies: [9,6],
 			},
 			{
 			id: 11,
