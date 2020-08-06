@@ -196,7 +196,12 @@ Vue.component('mission', {
         ['Ahsoka Tano  100'], //test platoon 13
 		],
 		guides:[
-		'AhnaldT101 example video: y2u.be/1q68IuXwA7Q'
+		'AhnaldT101 Ki-Adi Mundi guide: www.youtube.com/watch?v=SzdEEvL7z40',
+		'Its Just Ian Modding and Strategy: www.youtube.com/watch?v=9eLKxWumn_Y',
+		'McMole2 Defeat the Reek: www.youtube.com/watch?v=ktfNTjiUiGY',
+		'Mikayas Sky & Ahsoka guide www.youtube.com/watch?v=rWu4qahiA-g',
+		'BitDynasty GAS + Ahsoka guide: www.youtube.com/watch?v=mV7PPNRL2Nc',
+		
 		],
 		missions: [{
 			id: 0,
@@ -330,6 +335,7 @@ Vue.component('mission', {
 			rewards: [
 				'1 whole KAM Shard'
 				],
+		    weblinks: [0,1,2],
 			preferredSquads: [23],
 			dangerousEnemies: []
 			},
@@ -558,6 +564,7 @@ Vue.component('mission', {
 				'Wave 3: 1 319 175',
 				'Wave 4: 1 790 100'
 				],
+			weblinks: [3,4],
 			preferredSquads: [21],
 			dangerousEnemies: []
 		    
