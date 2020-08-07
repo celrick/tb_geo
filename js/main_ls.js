@@ -148,7 +148,11 @@ Vue.component('mission', {
 				toons: ['unknown', 'unknown','unknown','unknown','unknown',]
 				
 			},
-			
+			{
+				id:25,
+				name: 'Required: Galactic Republic Jedi (23k+ Power)',
+				toons: ['ki-adi-mundi', 'shaak_ti', 'unknown', 'unknown', 'unknown',]
+             },			
 
 
 		],
@@ -164,7 +168,11 @@ Vue.component('mission', {
 	    'Poggle the Lesser',//8
 	    'Reek',//9
 	    'T-Series Tactical Droid',//10
-	    'Wat Tambor', //11          									
+	    'Wat Tambor', //11 
+	    'Executrix',//12
+	    'Malevolence',//13
+	    'Chimaera',//14        
+	    'Nexu',//15 									
 		],
 		platoons: [
 		["Han's Millennium Falcon", '7', 'Ebon Hawk', '6', 'BTL-B Y-wing', '6', 'Vulture Droid', '5', "Plo Koon's Jedi Starfighter", '5', "Wedge Antilles's X-wing", '5', 'CT-7567 "Rex"\'s ARC-170', '5', 'Hyena Bomber', '4', "Emperor's Command Shuttle", '4', "Biggs Darklighter's X-wing", '4', "Ahsoka Tano's Jedi Starfighter", '3', "Geonosian Spy's Starfighter", '3', "Cassian's U-wing", '3', 'Gauntlet Starfighter', '3', 'Phantom II', '3', "Poe Dameron's X-wing", '3', 'TIE Silencer', '2', "Jedi Consular's Starfighter", '2', 'Scimitar', '2', "Bistan's U-wing", '2', 'Xanadu Blood', '2', 'Umbaran Starfighter', '2', 'First Order TIE FIghter', '1', 'TIE Reaper', '1', 'TIE Advanced x1', '1', "Lando's Millennium Falcon", '1', "Sun Fac's Starfighter", '1', 'IG-2000', '1', "Rey's Millennium Falcon", '1', 'Ghost', '1', "Kylo's Command Shuttle", '1'
@@ -213,8 +221,8 @@ Vue.component('mission', {
 				'Wave 3: 1 242 500',
 				'Wave 4: 1 837 500'
 				],
-			preferredSquads: [24],
-			dangerousEnemies: []
+			preferredSquads: [20],
+			dangerousEnemies: [4,3,11,2,7]
 			},	{
 			id: 1,
 			name: 'c2',
@@ -224,7 +232,7 @@ Vue.component('mission', {
 				'Wave 1: 2,750,000'
 				],
 			preferredSquads: [20],
-			dangerousEnemies: []
+			dangerousEnemies: [12,14]
 			}, {
 			id: 2,
 			name: 'c3',
@@ -237,7 +245,7 @@ Vue.component('mission', {
 				'Wave 4: 1 837 500'
 				],
 			preferredSquads: [20],
-			dangerousEnemies: []
+			dangerousEnemies: [0,1,8,5,10]
 			},
 			{
 			id: 3,
@@ -249,7 +257,7 @@ Vue.component('mission', {
 				'Wave 2: 1 837 500',
 				],
 			preferredSquads: [20],
-			dangerousEnemies: []
+			dangerousEnemies: [15]
 			},
 			{
 			id: 4,
@@ -260,7 +268,9 @@ Vue.component('mission', {
 				'Wave 1: 1 800 000',
 				],
 				preferredSquads: [20],
+				dangerousEnemies: [12,14],
 			}, 
+			
 			{
 			id: 5,
 			name: 'c6',
@@ -270,6 +280,7 @@ Vue.component('mission', {
 				'32 GET2',
 				],
 				preferredSquads: [20],
+				dangerousEnemies: [13],
 			}, 
 			{
 			id: 6,
@@ -283,7 +294,7 @@ Vue.component('mission', {
 				'Wave 4: 1 627 500'
 				],
 			preferredSquads: [20],
-			dangerousEnemies: []
+			dangerousEnemies: [4,2,3,10,7,11,8]
 			},
 			{id: 7, // GR Jedi mission
 			name: 'c8',
@@ -296,7 +307,7 @@ Vue.component('mission', {
 				'Wave 4: 2 115 750'
 				],
 			preferredSquads: [20],
-			dangerousEnemies: []
+			dangerousEnemies: [7,11,2]
 			},
 			{
 			id: 8,
@@ -310,7 +321,7 @@ Vue.component('mission', {
 				'Wave 4: 1 627 500'
 				],
 			preferredSquads: [20],
-			dangerousEnemies: []
+			dangerousEnemies: [4,2,3,10,7,11,8]
 			},
 			{
 			id: 9,
@@ -324,7 +335,7 @@ Vue.component('mission', {
 				'Wave 4: 1 627 500'
 				],
 			preferredSquads: [20],
-			dangerousEnemies: []
+			dangerousEnemies: [0,5,10,1]
 			},
 			{
 			id: 10,
@@ -347,6 +358,7 @@ Vue.component('mission', {
 				'Wave 1: 900,000',
 				],
 			preferredSquads: [20],
+			dangerousEnemies: [12,14],
 			},
 			{
 			id: 12,
@@ -357,6 +369,7 @@ Vue.component('mission', {
 				'21 GET2',
 				],
 			preferredSquads: [20],
+			dangerousEnemies: [13],
 			},
 			{id: 13,
 			name: 'c14',
@@ -369,7 +382,7 @@ Vue.component('mission', {
 				'Wave 4: 1 377 000'
 				],
 			preferredSquads: [20],
-			dangerousEnemies: []
+			dangerousEnemies: [0,2,11,7,10]
 			},
 			{
 			id: 14,
@@ -383,7 +396,7 @@ Vue.component('mission', {
 				'Wave 4: 1 377 000'
 				],
 			preferredSquads: [20],
-			dangerousEnemies: []
+			dangerousEnemies: [0,2,11,7,10]
 			},
 			{
 			id: 15,
@@ -397,7 +410,7 @@ Vue.component('mission', {
 				'Wave 4: 1 377 000'
 				],
 			preferredSquads: [20],
-			dangerousEnemies: []
+			dangerousEnemies: [0,5,1,8,4,3]
 			},
 			{
 			id: 16,
@@ -411,9 +424,9 @@ Vue.component('mission', {
 				'Wave 4: 1 377 000'
 				],
 			preferredSquads: [20],
-			dangerousEnemies: []
+			dangerousEnemies: [0,5,1,8,4,3]
 			},
-			{//LS New mission  Anakin and snips
+			{//LS New mission  Kenobi
 		    id: 38,
 		    name: 'ls1',
 		    type: 'special',
@@ -422,7 +435,7 @@ Vue.component('mission', {
 				'21 GET2'
 				],
 			preferredSquads: [22],
-			dangerousEnemies: []
+			dangerousEnemies: [3]
 		    },
 		    {
 		    id: 41,
@@ -430,10 +443,10 @@ Vue.component('mission', {
 		    type: 'special',
 		    position: 'right',
 		    rewards: [
-				'20 GET2',
+				'25 GET2',
 				],
-			preferredSquads: [20],
-			dangerousEnemies: []
+			preferredSquads: [25],
+			dangerousEnemies: [4,11,3],
 		    },
 		    {
 		    id: 42,
@@ -447,7 +460,7 @@ Vue.component('mission', {
 				'Wave 4: 1 837 500'
 				],
 			preferredSquads: [20],
-			dangerousEnemies: []
+			dangerousEnemies: [4,3,11,2,7]
 		    },
 			{
 			id: 17,
@@ -458,6 +471,7 @@ Vue.component('mission', {
 				'Wave 1: 523 900',
 				],
 			preferredSquads: [20],	
+			dangerousEnemies: [12,14],
 			},
 			{
 			id: 18,
@@ -471,7 +485,7 @@ Vue.component('mission', {
 				'Wave 4: 1 155 000',
 				],
 			preferredSquads: [20],
-			dangerousEnemies: []
+			dangerousEnemies: [2,7,3,11]
 			},
 			{id: 19,//----------------JEDI  special mission
 			name: 'c20',
@@ -484,7 +498,7 @@ Vue.component('mission', {
 				'Wave 4: 1 155 000',
 				],
 			preferredSquads: [20],
-			dangerousEnemies: []
+			dangerousEnemies: [2,7,3,11]
 			},
 			{
 			id: 20,//   -----------------Galactic Republic
@@ -494,7 +508,7 @@ Vue.component('mission', {
 			rewards: [
 				'15 GET2',
 				],
-				dangerousEnemies: [],
+				dangerousEnemies: [10,7,1,3],
 				preferredSquads: [20]
 			},
 			{
@@ -509,7 +523,7 @@ Vue.component('mission', {
 				'Wave 4: 1 155 000',
 				],
 			preferredSquads: [20],
-			dangerousEnemies: []
+			dangerousEnemies: [5,10,4]
 			},
 			{
 			id: 22, //---------Jedi mission
@@ -523,7 +537,7 @@ Vue.component('mission', {
 				'Wave 4: 1 501 500',
 				],
 			preferredSquads: [20],
-			dangerousEnemies: []
+			dangerousEnemies: [10,4,1,5]
 			},
 			{
 			id: 23,
@@ -537,9 +551,9 @@ Vue.component('mission', {
 				'Wave 4: 2 388 750'
 				],
 			preferredSquads: [20],
-			dangerousEnemies: []
+			dangerousEnemies: [0,10,5,1]
 			},
-			{
+			/*{
 			id: 24,
 			name: 's2',
 			type: 'usual',
@@ -551,7 +565,7 @@ Vue.component('mission', {
 				'Wave 4: 1 627 500'
 				],
 				preferredSquads: [20],
-			},
+			},*/
 			{
 			id: 25,
 			name: 's3',
@@ -565,20 +579,21 @@ Vue.component('mission', {
 				],
 			weblinks: [3,4],
 			preferredSquads: [21],
-			dangerousEnemies: []
+			dangerousEnemies: [1,2]
 		    
 			},
-			/*{
+			{//-----Fleet special
 			id: 26,
 			name: 's4',
 			type: 'special',
-			position: 'left',
+			position: 'right',
 			rewards: [
-				'40 GET2',
+				'20 GET2',
 				],
-			dangerousEnemies: []
+			dangerousEnemies: [13],
+			preferredSquads:[20]
 			},
-			* */
+			
 			/* Platoons */
 			{id: 27,
 			name: 't1',

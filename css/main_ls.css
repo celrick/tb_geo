@@ -209,15 +209,15 @@ form input[type=submit]:hover {
 	left: 10%;
 }
 .c2 {/*P4 top battle*/
-	top: 25%;
-	left: 20%;
+	top: 28%;
+	left: 19%;
 }
 .c3 {/*P4 lower battle*/
-	top: 53%;
-	left: 10%;
+	top: 56%;
+	left: 12%;
 }
 .c4 {/*P4 lower battle*/
-	top: 65%;
+	top: 69%;
 	left: 15%;
 }
 .c5 {/*P3 top battle*/
@@ -233,8 +233,8 @@ form input[type=submit]:hover {
 	left: 29%;
 }
 .c8 {/*P3 middle battle 603*/
-	top: 48%;
-	left: 36%;
+	top: 52%;
+	left: 30%;
 }
 .c9 {/*P3 middle battle 464*/
 	top: 45%;
@@ -245,7 +245,7 @@ form input[type=submit]:hover {
 	left: 25%;
 }
 .c11 {/*KAM special*/
-	top: 75%;
+	top: 70%;
 	left: 45%;
 }
 .c12 {/*P2 top battle*/
@@ -257,8 +257,8 @@ form input[type=submit]:hover {
 	left: 65%;
 }
 .c14 {/*P2 middle*/
-	top: 52%;
-	left: 55%;
+	top: 54%;
+	left: 56%;
 }
 .c15 {/*P2 middle*/
 	top: 46%;
@@ -269,7 +269,7 @@ form input[type=submit]:hover {
 	left: 59%;
 }
 .c17 {/*P2 bottom*/
-	top: 65%;
+	top: 63%;
 	left: 63%;
 
 }
@@ -297,35 +297,35 @@ form input[type=submit]:hover {
 	top: 68%;
 	left: 79%;
 }
-.c23 {/*P1 lower battle*/
+.c23 {/*P1 lower battle jedi*/
 	top: 76%;
-	left: 85%;
+	left: 91%;
 }
 
 .s1 {/*P4 bottom battle 664*/
-	top: 62%;
-	left: 4%;
+	top: 54%;
+	left: 5%;
 }
-.s2 {/*P3 bottom battle*/
+/*.s2 {
 	top: 62%;
 	left: 42%;
+}*/
+.s3 {/*P2 middle battle 564*/
+	top: 50%;
+	left: 68%;
 }
-.s3 {/*P2 middle battle 565*/
-	top: 53%;
-	left: 63%;
-}
-.s4 {/*Not used*/
-	top: 65%;
-	left: 92%;
+.s4 {/*p4 top special*/
+	top: 22%;
+	left: 23%;
 }
 
 .t1 {/*P4 top platoons*/
-	top: 25%;
+	top: 20%;
 	left: 12%;
 }
 .b1 {/*P4 bottom platoons*/
 	top: 75%;
-	left: 8%;
+	left: 7%;
 }
 .t2 {/*P3 top platoon*/
 	top: 25%;
@@ -333,9 +333,9 @@ form input[type=submit]:hover {
 }
 .m2 {/*P3 middle platoons*/
 	top: 42%;
-	left: 40%;
+	left: 34%;
 }
-.b2 {/*P3 middle platoons*/
+.b2 {/*P3 bottom platoons*/
 	top: 65%;
 	left: 34%;
 }
@@ -345,23 +345,23 @@ form input[type=submit]:hover {
 }
 .m3 {/*P2 middle platoons*/
 	top: 50%;
-	left: 59%;
+	left: 58%;
 }
 .b3 {/*P2 middle platoons*/
 	top: 75%;
 	left: 72%;
 }
 .t4 {/*P1 top platoons*/
-	top: 25%;
-	left: 76%;
+	top: 32%;
+	left: 75%;
 }
 .m4 {/*P1 middle platoon */
 	top: 50%;
 	left: 86%;
 }
 .b4 {/*P1 bottom platoons*/
-	top: 52%;
-	left: 93%;
+	top: 67%;
+	left: 88%;
 }
 .lsp1{/*P4 middle platoons*/
 	top: 39%;
