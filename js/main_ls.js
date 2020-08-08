@@ -153,6 +153,42 @@ Vue.component('mission', {
 				name: 'Required: Galactic Republic Jedi (23k+ Power)',
 				toons: ['ki-adi-mundi', 'shaak_ti', 'unknown', 'unknown', 'unknown',]
              },			
+             {
+                id:26,
+                name: 'Kenobi Negotiator Fleet w/o Y-Wing',
+                toons: ['negotiator', 'anakin\'s_eta-2_starfighter','ahsoka_tano\'s_jedi_starfighter', 'umbaran_starfighter', 'plo_koon\'s_jedi_starfighter', 'clone_sergeant\'s_arc-170', 'rex\'s_arc-170', 'ebon_hawk']
+             },
+             {
+                id:27,
+                name: 'Home One Fleet',
+                toons: ['han\'s_millennium_falcon'],
+             },
+              {
+                id:28,
+                name: 'Padme Republic  (Required: Padme and Galactic Republic )',
+                toons: ['padmé_amidala','jedi_knight_anakin','general_kenobi','c-3po', 'ahsoka_tano'],
+             },
+             {
+				id:29,
+				name: 'Jedi Training Rey',
+				toons: ['rey_(jedi_training)', 'c-3po', 'r2-d2', 'finn', 'bb-8'],
+				 
+			 },
+			 {
+				id:30,
+				name: 'JKR Jedi (Required: Jedi)',
+				toons: ['jedi_knight_revan', 'bastila_shan', 'jolee_bindo', 'hermit_yoda', 'grand_master_yoda'],
+				 
+			 },
+			 {
+                id:31,
+                name: 'Kenobi Negotiator Fleet w/ Y-Wing',
+                toons: ['negotiator', 'anakin\'s_eta-2_starfighter','ahsoka_tano\'s_jedi_starfighter', 'umbaran_starfighter', 'plo_koon\'s_jedi_starfighter', 'clone_sergeant\'s_arc-170', 'rex\'s_arc-170', 'BTL-B_Y-wing_Starfighter']
+             },
+             
+            
+             
+
 
 
 		],
@@ -172,7 +208,8 @@ Vue.component('mission', {
 	    'Executrix',//12
 	    'Malevolence',//13
 	    'Chimaera',//14        
-	    'Nexu',//15 									
+	    'Nexu',//15 
+	    'Hound\'s Tooth',//16									
 		],
 		platoons: [
 		["Han's Millennium Falcon", '7', 'Ebon Hawk', '6', 'BTL-B Y-wing', '6', 'Vulture Droid', '5', "Plo Koon's Jedi Starfighter", '5', "Wedge Antilles's X-wing", '5', 'CT-7567 "Rex"\'s ARC-170', '5', 'Hyena Bomber', '4', "Emperor's Command Shuttle", '4', "Biggs Darklighter's X-wing", '4', "Ahsoka Tano's Jedi Starfighter", '3', "Geonosian Spy's Starfighter", '3', "Cassian's U-wing", '3', 'Gauntlet Starfighter', '3', 'Phantom II', '3', "Poe Dameron's X-wing", '3', 'TIE Silencer', '2', "Jedi Consular's Starfighter", '2', 'Scimitar', '2', "Bistan's U-wing", '2', 'Xanadu Blood', '2', 'Umbaran Starfighter', '2', 'First Order TIE FIghter', '1', 'TIE Reaper', '1', 'TIE Advanced x1', '1', "Lando's Millennium Falcon", '1', "Sun Fac's Starfighter", '1', 'IG-2000', '1', "Rey's Millennium Falcon", '1', 'Ghost', '1', "Kylo's Command Shuttle", '1'
@@ -208,7 +245,7 @@ Vue.component('mission', {
 		'McMole2 Defeat the Reek: www.youtube.com/watch?v=ktfNTjiUiGY',
 		'Mikayas Sky & Ahsoka guide www.youtube.com/watch?v=rWu4qahiA-g',
 		'BitDynasty GAS + Ahsoka guide: www.youtube.com/watch?v=mV7PPNRL2Nc',
-		
+		'Z-Gaming JTR with C3P0: www.youtube.com/watch?v=rOqVwTLFMOE',//5
 		],
 		missions: [{
 			id: 0,
@@ -232,7 +269,7 @@ Vue.component('mission', {
 				'Wave 1: 2,750,000'
 				],
 			preferredSquads: [20],
-			dangerousEnemies: [12,14]
+			dangerousEnemies: [12,14,16]
 			}, {
 			id: 2,
 			name: 'c3',
@@ -268,7 +305,7 @@ Vue.component('mission', {
 				'Wave 1: 1 800 000',
 				],
 				preferredSquads: [20],
-				dangerousEnemies: [12,14],
+				dangerousEnemies: [12,14,16],
 			}, 
 			
 			{
@@ -358,7 +395,7 @@ Vue.component('mission', {
 				'Wave 1: 900,000',
 				],
 			preferredSquads: [20],
-			dangerousEnemies: [12,14],
+			dangerousEnemies: [12,14,16],
 			},
 			{
 			id: 12,
@@ -470,8 +507,8 @@ Vue.component('mission', {
 			rewards: [
 				'Wave 1: 523 900',
 				],
-			preferredSquads: [20],	
-			dangerousEnemies: [12,14],
+			preferredSquads: [31,26],	
+			dangerousEnemies: [12,14,16],
 			},
 			{
 			id: 18,
@@ -509,7 +546,7 @@ Vue.component('mission', {
 				'15 GET2',
 				],
 				dangerousEnemies: [10,7,1,3],
-				preferredSquads: [20]
+				preferredSquads: [28]
 			},
 			{
 			id: 21,
@@ -522,8 +559,9 @@ Vue.component('mission', {
 				'Wave 3: 840 000',
 				'Wave 4: 1 155 000',
 				],
-			preferredSquads: [20],
-			dangerousEnemies: [5,10,4]
+			preferredSquads: [29],
+			dangerousEnemies: [5,10,4],
+			weblinks: [5],
 			},
 			{
 			id: 22, //---------Jedi mission
@@ -536,7 +574,7 @@ Vue.component('mission', {
 				'Wave 3: 1 092 000',
 				'Wave 4: 1 501 500',
 				],
-			preferredSquads: [20],
+			preferredSquads: [30],
 			dangerousEnemies: [10,4,1,5]
 			},
 			{
