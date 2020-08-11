@@ -101,7 +101,7 @@ Vue.component('mission', {
 			},
 			{
 				id: 16,
-				name: 'Test squad',
+				name: 'Required: Separatists + Count Dooku (16.5k+ Power) ',
 				toons: ['count_dooku', 'general_grievous', 'b2_super_battle_droid', 'nute_gunrey', 'b1_battle_droid']
 			},
 			{
@@ -126,8 +126,8 @@ Vue.component('mission', {
 			},
 			{
 				id: 21,
-				name: 'Unknown',
-				toons: ['unknown', 'unknown','unknown','unknown','unknown',]
+				name: 'Unknown Wat Tambor + Separatists (16.5k+ Power)',
+				toons: ['unknown', 'unknown','unknown','unknown','wat_tambor',]
 				
 			},
 			
