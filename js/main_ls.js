@@ -302,8 +302,9 @@ Vue.component('mission', {
 		'Mikayas Sky & Ahsoka guide www.youtube.com/watch?v=rWu4qahiA-g',
 		'BitDynasty GAS + Ahsoka guide: www.youtube.com/watch?v=mV7PPNRL2Nc',
 		'Z-Gaming JTR with C3P0: www.youtube.com/watch?v=rOqVwTLFMOE',//5
-		'DBofficial G10 SARGE! WIN EVERY LS GEO TB FLEET: www.youtube.com/watch?v=QPfu0URQliU&',//6
+		'DBofficial G10 SARGE guide: www.youtube.com/watch?v=QPfu0URQliU&',//6
 		'Warrior SWGOH Livestream t/s 10:06: www.youtube.com/watch?v=YAP5s-bavXE',//7
+		'Bulldog g12 JKL destorys LS geo tb: www.youtube.com/watch?v=g_co0UtkMvA',//8
 		],
 		missions: [{
 			id: 0,
@@ -432,7 +433,8 @@ Vue.component('mission', {
 				'Wave 4: 1 627 500'
 				],
 			preferredSquads: [33,30],
-			dangerousEnemies: [0,5,10,1]
+			dangerousEnemies: [0,5,10,1],
+			weblinks: [8],
 			},
 			{
 			id: 10,
@@ -495,7 +497,8 @@ Vue.component('mission', {
 				'Wave 4: 1 377 000'
 				],
 			preferredSquads: [29,34],
-			dangerousEnemies: [0,2,11,7,10]
+			dangerousEnemies: [0,2,11,7,10],
+			weblinks: [5],
 			},
 			{
 			id: 15,
@@ -523,7 +526,8 @@ Vue.component('mission', {
 				'Wave 4: 1 377 000'
 				],
 			preferredSquads: [33,30],
-			dangerousEnemies: [0,5,1,8,4,3]
+			dangerousEnemies: [0,5,1,8,4,3],
+			weblinks: [8],
 			},
 			{//LS New mission  Kenobi
 		    id: 38,
@@ -585,7 +589,8 @@ Vue.component('mission', {
 				'Wave 4: 1 155 000',
 				],
 			preferredSquads: [33,30],
-			dangerousEnemies: [2,7,3,11]
+			dangerousEnemies: [2,7,3,11],
+			weblinks: [8],
 			},
 			{id: 19,//----------------JEDI  special mission
 			name: 'c20',
@@ -638,7 +643,8 @@ Vue.component('mission', {
 				'Wave 4: 1 501 500',
 				],
 			preferredSquads: [30,33],
-			dangerousEnemies: [10,4,1,5]
+			dangerousEnemies: [10,4,1,5],
+			weblinks: [8],
 			},
 			{
 			id: 23,
