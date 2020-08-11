@@ -156,7 +156,7 @@ Vue.component('mission', {
              {
                 id:26,
                 name: 'Kenobi Negotiator Fleet w/o Y-Wing',
-                toons: ['negotiator', 'anakin\'s_eta-2_starfighter','ahsoka_tano\'s_jedi_starfighter', 'umbaran_starfighter', 'plo_koon\'s_jedi_starfighter', 'clone_sergeant\'s_arc-170', 'rex\'s_arc-170', 'ebon_hawk']
+                toons: ['negotiator', 'anakin\'s_eta-2_starfighter','ahsoka_tano\'s_jedi_starfighter', 'umbaran_starfighter', 'plo_koon\'s_jedi_starfighter', 'clone_sergeant\'s_arc-170', 'rex\'s_arc-170', 'jedi_consular\'s_starfighter']
              },
              {
                 id:27,
@@ -185,6 +185,62 @@ Vue.component('mission', {
                 name: 'Kenobi Negotiator Fleet w/ Y-Wing',
                 toons: ['negotiator', 'anakin\'s_eta-2_starfighter','ahsoka_tano\'s_jedi_starfighter', 'umbaran_starfighter', 'plo_koon\'s_jedi_starfighter', 'clone_sergeant\'s_arc-170', 'rex\'s_arc-170', 'BTL-B_Y-wing_Starfighter']
              },
+             {
+                id:32,
+                name: 'Kenobi Negotiator Fleet - CS start (see video)',
+                toons: ['negotiator', 'anakin\'s_eta-2_starfighter', 'clone_sergeant\'s_arc-170', 'umbaran_starfighter','ahsoka_tano\'s_jedi_starfighter', 'plo_koon\'s_jedi_starfighter', 'rex\'s_arc-170', 'jedi_consular\'s_starfighter']
+             },
+             {
+				id:33,
+				name: 'JKL Lead (see video) (Required: Jedi)',
+				toons: ['jedi_knight_luke_skywalker', 'hermit_yoda', 'grand_master_yoda', 'aayla_secura', 'obi-wan_kenobi_(old_ben)'],
+			 },
+			 {
+				id: 34,
+				name: 'Shaak-ti Lead Clones',
+				toons: ['shaak_ti', 'arc_trooper', 'ct-21-0408__echo_', 'ct-7567__rex_', 'ct-5555__fives_']
+				
+			},
+			{
+				id: 35,
+				name: 'GAS Lead Clones',
+				toons: ['general_skywalker', 'arc_trooper', 'ct-21-0408__echo_', 'ct-7567__rex_', 'ct-5555__fives_']
+				
+			},
+			{
+                id:36,
+                name: 'Padme Republic  (Required: Galactic Republic)',
+                toons: ['padmé_amidala','jedi_knight_anakin','general_kenobi','c-3po', 'ahsoka_tano'],
+             },
+             {
+                id:37,
+                name: 'Padme Republic' ,
+                toons: ['padmé_amidala','jedi_knight_anakin','general_kenobi','c-3po', 'ahsoka_tano'],
+             },
+             {
+				id: 38,
+				name: 'Unknown (Required: Galactic Republic Jedi, 22k+ Power)',
+				toons: ['unknown', 'unknown','unknown','unknown','unknown',]
+				
+			},
+			{
+				id: 39,
+				name: 'Unknown (Required: Jedi, 23k+ Power)',
+				toons: ['unknown', 'unknown','unknown','unknown','unknown',]
+				
+			},
+			{
+				id: 40,
+				name: 'Unknown (Required: GAS & 501st, 23k+ Power)',
+				toons: ['general_skywalker', 'unknown','unknown','unknown','unknown',]
+				
+			},
+			{
+				id: 41,
+				name: 'Unknown (Required: Galactic Republic, Padme, JKA, GK, 23k+ Power)',
+				toons: ['padmé_amidala', 'jedi_knight_anakin','general_kenobi','unknown','unknown',]
+				
+			},
              
             
              
@@ -246,6 +302,8 @@ Vue.component('mission', {
 		'Mikayas Sky & Ahsoka guide www.youtube.com/watch?v=rWu4qahiA-g',
 		'BitDynasty GAS + Ahsoka guide: www.youtube.com/watch?v=mV7PPNRL2Nc',
 		'Z-Gaming JTR with C3P0: www.youtube.com/watch?v=rOqVwTLFMOE',//5
+		'DBofficial G10 SARGE! WIN EVERY LS GEO TB FLEET: www.youtube.com/watch?v=QPfu0URQliU&',//6
+		'Warrior SWGOH Livestream t/s 10:06: www.youtube.com/watch?v=YAP5s-bavXE',//7
 		],
 		missions: [{
 			id: 0,
@@ -258,7 +316,7 @@ Vue.component('mission', {
 				'Wave 3: 1 242 500',
 				'Wave 4: 1 837 500'
 				],
-			preferredSquads: [20],
+			preferredSquads: [39],
 			dangerousEnemies: [4,3,11,2,7]
 			},	{
 			id: 1,
@@ -268,8 +326,9 @@ Vue.component('mission', {
 			rewards: [
 				'Wave 1: 2,750,000'
 				],
-			preferredSquads: [20],
-			dangerousEnemies: [12,14,16]
+			preferredSquads: [31,32,26],
+			dangerousEnemies: [12,14,16],
+			weblinks: [6,7],
 			}, {
 			id: 2,
 			name: 'c3',
@@ -281,7 +340,7 @@ Vue.component('mission', {
 				'Wave 3: 1 242 500',
 				'Wave 4: 1 837 500'
 				],
-			preferredSquads: [20],
+			preferredSquads: [24],
 			dangerousEnemies: [0,1,8,5,10]
 			},
 			{
@@ -293,7 +352,7 @@ Vue.component('mission', {
 				'Wave 1: 867 000',
 				'Wave 2: 1 837 500',
 				],
-			preferredSquads: [20],
+			preferredSquads: [41],
 			dangerousEnemies: [15]
 			},
 			{
@@ -304,8 +363,9 @@ Vue.component('mission', {
 			rewards: [
 				'Wave 1: 1 800 000',
 				],
-				preferredSquads: [20],
+				preferredSquads: [31,32,26],
 				dangerousEnemies: [12,14,16],
+				weblinks : [6,7],
 			}, 
 			
 			{
@@ -316,7 +376,7 @@ Vue.component('mission', {
 			rewards: [
 				'32 GET2',
 				],
-				preferredSquads: [20],
+				preferredSquads: [31,26],
 				dangerousEnemies: [13],
 			}, 
 			{
@@ -330,7 +390,7 @@ Vue.component('mission', {
 				'Wave 3: 1 105 000',
 				'Wave 4: 1 627 500'
 				],
-			preferredSquads: [20],
+			preferredSquads: [37],
 			dangerousEnemies: [4,2,3,10,7,11,8]
 			},
 			{id: 7, // GR Jedi mission
@@ -343,7 +403,7 @@ Vue.component('mission', {
 				'Wave 3: 1 436 500',
 				'Wave 4: 2 115 750'
 				],
-			preferredSquads: [20],
+			preferredSquads: [38],
 			dangerousEnemies: [7,11,2]
 			},
 			{
@@ -357,7 +417,7 @@ Vue.component('mission', {
 				'Wave 3: 1 105 000',
 				'Wave 4: 1 627 500'
 				],
-			preferredSquads: [20],
+			preferredSquads: [24],
 			dangerousEnemies: [4,2,3,10,7,11,8]
 			},
 			{
@@ -371,7 +431,7 @@ Vue.component('mission', {
 				'Wave 3: 1 105 000',
 				'Wave 4: 1 627 500'
 				],
-			preferredSquads: [20],
+			preferredSquads: [33,30],
 			dangerousEnemies: [0,5,10,1]
 			},
 			{
@@ -394,8 +454,9 @@ Vue.component('mission', {
 			rewards: [
 				'Wave 1: 900,000',
 				],
-			preferredSquads: [20],
+			preferredSquads: [31,32,26],
 			dangerousEnemies: [12,14,16],
+			weblinks : [6,7],
 			},
 			{
 			id: 12,
@@ -405,8 +466,9 @@ Vue.component('mission', {
 			rewards: [
 				'21 GET2',
 				],
-			preferredSquads: [20],
+			preferredSquads: [31,26],
 			dangerousEnemies: [13],
+			//weblinks : [6],
 			},
 			{id: 13,
 			name: 'c14',
@@ -418,7 +480,7 @@ Vue.component('mission', {
 				'Wave 3: 1 014 750',
 				'Wave 4: 1 377 000'
 				],
-			preferredSquads: [20],
+			preferredSquads: [36],
 			dangerousEnemies: [0,2,11,7,10]
 			},
 			{
@@ -432,7 +494,7 @@ Vue.component('mission', {
 				'Wave 3: 1 014 750',
 				'Wave 4: 1 377 000'
 				],
-			preferredSquads: [20],
+			preferredSquads: [29,34],
 			dangerousEnemies: [0,2,11,7,10]
 			},
 			{
@@ -446,7 +508,7 @@ Vue.component('mission', {
 				'Wave 3: 1 014 750',
 				'Wave 4: 1 377 000'
 				],
-			preferredSquads: [20],
+			preferredSquads: [34,29],
 			dangerousEnemies: [0,5,1,8,4,3]
 			},
 			{
@@ -460,7 +522,7 @@ Vue.component('mission', {
 				'Wave 3: 1 014 750',
 				'Wave 4: 1 377 000'
 				],
-			preferredSquads: [20],
+			preferredSquads: [33,30],
 			dangerousEnemies: [0,5,1,8,4,3]
 			},
 			{//LS New mission  Kenobi
@@ -496,7 +558,7 @@ Vue.component('mission', {
 				'Wave 3: 1 242 500',
 				'Wave 4: 1 837 500'
 				],
-			preferredSquads: [20],
+			preferredSquads: [24],
 			dangerousEnemies: [4,3,11,2,7]
 		    },
 			{
@@ -507,8 +569,9 @@ Vue.component('mission', {
 			rewards: [
 				'Wave 1: 523 900',
 				],
-			preferredSquads: [31,26],	
+			preferredSquads: [31,32,26],	
 			dangerousEnemies: [12,14,16],
+			weblinks: [6,7],
 			},
 			{
 			id: 18,
@@ -521,7 +584,7 @@ Vue.component('mission', {
 				'Wave 3: 840 000',
 				'Wave 4: 1 155 000',
 				],
-			preferredSquads: [20],
+			preferredSquads: [33,30],
 			dangerousEnemies: [2,7,3,11]
 			},
 			{id: 19,//----------------JEDI  special mission
@@ -534,7 +597,7 @@ Vue.component('mission', {
 				'Wave 3: 840 000',
 				'Wave 4: 1 155 000',
 				],
-			preferredSquads: [20],
+			preferredSquads: [34,35,29],
 			dangerousEnemies: [2,7,3,11]
 			},
 			{
@@ -559,7 +622,7 @@ Vue.component('mission', {
 				'Wave 3: 840 000',
 				'Wave 4: 1 155 000',
 				],
-			preferredSquads: [29],
+			preferredSquads: [29,34,35],
 			dangerousEnemies: [5,10,4],
 			weblinks: [5],
 			},
@@ -574,7 +637,7 @@ Vue.component('mission', {
 				'Wave 3: 1 092 000',
 				'Wave 4: 1 501 500',
 				],
-			preferredSquads: [30],
+			preferredSquads: [30,33],
 			dangerousEnemies: [10,4,1,5]
 			},
 			{
@@ -588,7 +651,7 @@ Vue.component('mission', {
 				'Wave 3: 1 615 250',
 				'Wave 4: 2 388 750'
 				],
-			preferredSquads: [20],
+			preferredSquads: [40],
 			dangerousEnemies: [0,10,5,1]
 			},
 			/*{
@@ -629,7 +692,7 @@ Vue.component('mission', {
 				'20 GET2',
 				],
 			dangerousEnemies: [13],
-			preferredSquads:[20]
+			preferredSquads:[24]
 			},
 			
 			/* Platoons */
