@@ -205,8 +205,8 @@ form input[type=submit]:hover {
 
 /*Mission positions*/
 .c1 {/*P4 middle battle*/
-	top: 40%;
-	left: 10%;
+	top: 49%;
+	left: 17%;
 }
 .c2 {/*P4 top battle*/
 	top: 28%;
@@ -216,7 +216,7 @@ form input[type=submit]:hover {
 	top: 56%;
 	left: 12%;
 }
-.c4 {/*P4 lower battle*/
+.s1 {/*P4 lower battle*/
 	top: 69%;
 	left: 15%;
 }
@@ -302,7 +302,7 @@ form input[type=submit]:hover {
 	left: 91%;
 }
 
-.s1 {/*P4 bottom battle 664*/
+.c4 {/*P4 bottom battle 664*/
 	top: 54%;
 	left: 5%;
 }
@@ -364,16 +364,16 @@ form input[type=submit]:hover {
 	left: 88%;
 }
 .lsp1{/*P4 middle platoons*/
-	top: 39%;
-	left: 14%;
+	top: 44%;
+	left: 9%;
 }
 .ls2{/*P4 middle special*/
-	top: 45%;
-	left: 14%;
+	top: 42%;
+	left: 21%;
 }
 .ls3{/*P4 middle battle*/
-	top: 48%;
-	left: 20%;
+	top: 38%;
+	left: 14%;
 }
 @media (min-width: 1700px) {
 	.map {
