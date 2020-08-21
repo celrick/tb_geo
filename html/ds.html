@@ -159,6 +159,11 @@
 					<div v-for="item in selectedMission.requiredToons" class="row justify-content-center .flex-nowrap">
 							<div class="platoons" v-for="item in platoons[item]">{{item}}</div>
 					</div>
+					<p class="h4"> Affected Territories </p>
+				  
+					  <ul>
+					<li class="text-justify" v-for="item in selectedMission.platzones">{{platims[item]}}</li>
+				     </ul>
 			</div>
 
 

@@ -184,6 +184,23 @@ Vue.component('mission', {
 		'DBofficial125 wat tambor guide: www.youtube.com/watch?v=jE_DSfGt16c&t=666s',
 		'ZGaming wat tambor guide: www.youtube.com/watch?v=mET94Lvvehc'
 		],
+		platims:[
+		'Phase 1 Top',//0
+		'Phase 2 Fleets',//1
+		'Phase 3 Fleets',//2
+		'Phase 4 Fleets',//3
+		'Phase 2 Middle',//4
+		'Phase 3 Middle',//5
+		'Phase 4 Middle',//6
+		'Phase 1 Bottom',//7
+		'Phase 2 Bottom',//8
+		'Phase 3 Bottom',//9
+		'Phase 4 Bottom',//10
+		'Phase 2 Bottom (Self)',//11
+		'Phase 3 Bottom (Self)',//12
+		'Phase 4 Middle (Self)',//13
+		'Phase 4 Bottom (Self)',//14
+		],
 		missions: [{
 			id: 0,
 			name: 'c1',
@@ -529,19 +546,20 @@ Vue.component('mission', {
 			name: 't1',
 			type: 'platoon',
 			position: 'right',
-			requiredToons: [0]
+			requiredToons: [0],
+			platzones:[4,8,9,5,6,10]
 			},
-			{id: 28, name: 'b1', type: 'platoon', position: 'right', requiredToons: [1]},
-			{id: 29, name: 't2', type: 'platoon', position: 'right', requiredToons: [2]},
-			{id: 30, name: 'm2', type: 'platoon', position: 'right', requiredToons: [3]},
-			{id: 31, name: 'b2', type: 'platoon', position: 'right', requiredToons: [4]},
-			{id: 32, name: 't3', type: 'platoon', position: 'left', requiredToons: [5]},
+			{id: 28, name: 'b1', type: 'platoon', position: 'right', requiredToons: [1], platzones: [4,8]},
+			{id: 29, name: 't2', type: 'platoon', position: 'right', requiredToons: [2], platzones: [5,9]},
+			{id: 30, name: 'm2', type: 'platoon', position: 'right', requiredToons: [3], platzones: [5]},
+			{id: 31, name: 'b2', type: 'platoon', position: 'right', requiredToons: [4], platzones: [11,5,9]},
+			{id: 32, name: 't3', type: 'platoon', position: 'left', requiredToons: [5], platzones: [6,10]},
 			{id: 40, name: 'lsp1', type: 'platoon', position: 'right', requiredToons: [12]},
-			{id: 33, name: 'm3', type: 'platoon', position: 'left', requiredToons: [6]},
-			{id: 34, name: 'b3', type: 'platoon', position: 'left', requiredToons: [7]},
-			{id: 35, name: 't4', type: 'platoon', position: 'left', requiredToons: [8]},
-			{id: 36, name: 'm4', type: 'platoon', position: 'left', requiredToons: [9]},
-			{id: 37, name: 'b4', type: 'platoon', position: 'left', requiredToons: [10]}
+			{id: 33, name: 'm3', type: 'platoon', position: 'left', requiredToons: [6],platzones: [6]},
+			{id: 34, name: 'b3', type: 'platoon', position: 'left', requiredToons: [7], platzones: [12]},
+			{id: 35, name: 't4', type: 'platoon', position: 'left', requiredToons: [8], platzones: [6, 10]},
+			{id: 36, name: 'm4', type: 'platoon', position: 'left', requiredToons: [9], platzones: [13, 10]},
+			{id: 37, name: 'b4', type: 'platoon', position: 'left', requiredToons: [10], platzones: [6, 14]}
 		],
 		selectedMission: '',
 		seen: false,

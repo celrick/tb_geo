@@ -152,6 +152,25 @@
 					<div v-for="item in selectedMission.requiredToons" class="row justify-content-center .flex-nowrap">
 							<div class="platoons" v-for="item in platoons[item]">{{item}}</div>
 					</div>
+					
+				<p class="h4"> Affected Territories </p>
+				  
+					  <ul>
+					<li class="text-justify" v-for="item in selectedMission.platzones">{{platims[item]}}</li>
+				     </ul>
+					  <!-- <div class="img_block">
+				       <img 
+						v-for="pic in platims[item]"
+						v-bind:src="'../media/platoons/' + pic + '.png'"
+						style="width:120px;height:120px;"
+						>
+				       </div> 
+				       <div v-for= "pic in platims[item]">
+					    <img src="../media/platoons/z1t.png" style="width:200px;height:150px;"> 
+					    
+				       </div>
+				       <img src="../media/mission_KAM.svg" alt="KAM" style="width:42px;height:42px;"> -->
+				   
 			</div>
 			
 			<div class="mb-3" v-if="selectedMission.weblinks">

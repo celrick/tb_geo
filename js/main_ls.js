@@ -306,6 +306,24 @@ Vue.component('mission', {
 		'Warrior SWGOH Livestream t/s 10:06: www.youtube.com/watch?v=YAP5s-bavXE',//7
 		'Bulldog g12 JKL destorys LS geo tb: www.youtube.com/watch?v=g_co0UtkMvA',//8
 		],
+		platims:[
+		'Phase 1 Fleets (Self)',//0
+		'Phase 2 Fleets',//1
+		'Phase 3 Fleets',//2
+		'Phase 4 Fleets',//3
+		'Phase 1 Middle',//4
+		'Phase 2 Middle',//5
+		'Phase 3 Middle',//6
+		'Phase 4 Middle',//7
+		'Phase 1 Bottom',//8
+		'Phase 2 Bottom',//9
+		'Phase 3 Bottom',//10
+		'Phase 4 Bottom',//11
+		'Phase 2 Middle (Self)',//12
+		'Phase 3 Middle (Self)',//13
+		'Phase 4 Middle (Self)',//14
+		'Phase 4 Bottom (Self)',//15
+		],
 		missions: [{
 			id: 0,
 			name: 'c1',
@@ -706,19 +724,20 @@ Vue.component('mission', {
 			name: 't1',
 			type: 'platoon',
 			position: 'right',
-			requiredToons: [9]
+			requiredToons: [9],
+			 platzones: [6,10,7,11]
 			},
-			{id: 28, name: 'b1', type: 'platoon', position: 'right', requiredToons: [11]},
-			{id: 29, name: 't2', type: 'platoon', position: 'right', requiredToons: [6]},
-			{id: 30, name: 'm2', type: 'platoon', position: 'right', requiredToons: [7]},
-			{id: 31, name: 'b2', type: 'platoon', position: 'right', requiredToons: [8]},
-			{id: 32, name: 't3', type: 'platoon', position: 'left', requiredToons: [3]},
-			{id: 40, name: 'lsp1', type: 'platoon', position: 'right', requiredToons: [10]},
-			{id: 33, name: 'm3', type: 'platoon', position: 'left', requiredToons: [4]},
-			{id: 34, name: 'b3', type: 'platoon', position: 'left', requiredToons: [5]},
-			{id: 35, name: 't4', type: 'platoon', position: 'left', requiredToons: [0]},
-			{id: 36, name: 'm4', type: 'platoon', position: 'left', requiredToons: [1]},
-			{id: 37, name: 'b4', type: 'platoon', position: 'left', requiredToons: [2]}
+			{id: 28, name: 'b1', type: 'platoon', position: 'right', requiredToons: [11], platzones: [15,7]},
+			{id: 29, name: 't2', type: 'platoon', position: 'right', requiredToons: [6], platzones: [7,11]},
+			{id: 30, name: 'm2', type: 'platoon', position: 'right', requiredToons: [7], platzones: [13,10,7,11]},
+			{id: 31, name: 'b2', type: 'platoon', position: 'right', requiredToons: [8], platzones: [7,11]},
+			{id: 32, name: 't3', type: 'platoon', position: 'left', requiredToons: [3], platzones: [6,10]},
+			{id: 40, name: 'lsp1', type: 'platoon', position: 'right', requiredToons: [10], platzones: [14,11]},
+			{id: 33, name: 'm3', type: 'platoon', position: 'left', requiredToons: [4], platzones: [12,6]},
+			{id: 34, name: 'b3', type: 'platoon', position: 'left', requiredToons: [5], platzones: [6,10]},
+			{id: 35, name: 't4', type: 'platoon', position: 'left', requiredToons: [0], platzones: [0,1,2,3]},
+			{id: 36, name: 'm4', type: 'platoon', position: 'left', requiredToons: [1], platzones: [5]},
+			{id: 37, name: 'b4', type: 'platoon', position: 'left', requiredToons: [2], platzones: [5,9]}
 		],
 		selectedMission: '',
 		seen: false,
