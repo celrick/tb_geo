@@ -340,7 +340,7 @@ Vue.component('mission', {
 			},	{
 			id: 1,
 			name: 'c2',
-			type: 'req',
+			type: 'usual',
 			position: 'right',
 			rewards: [
 				'Wave 1: 2,750,000'
@@ -365,7 +365,7 @@ Vue.component('mission', {
 			{
 			id: 3,
 			name: 'c4',
-			type: 'usual',
+			type: 'req',
 			position: 'right',
 			rewards: [
 				'Wave 1: 867 000',
@@ -506,7 +506,7 @@ Vue.component('mission', {
 			{
 			id: 14,
 			name: 'c15',
-			type: 'req',
+			type: 'usual',
 			position: 'left',
 			rewards: [
 				'Wave 1: 434 000',
@@ -667,7 +667,7 @@ Vue.component('mission', {
 			{
 			id: 23,
 			name: 's1',
-			type: 'usual',
+			type: 'req',
 			position: 'right',
 			rewards: [
 				'Wave 1: 664 950',
@@ -694,7 +694,7 @@ Vue.component('mission', {
 			{
 			id: 25,
 			name: 's3',
-			type: 'usual',
+			type: 'req',
 		    position: 'left',
 		    rewards: [
 				'Wave 1: 564 200',
