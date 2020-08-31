@@ -130,6 +130,12 @@ Vue.component('mission', {
 				toons: ['unknown', 'unknown','unknown','unknown','wat_tambor',]
 				
 			},
+			{
+				id: 22,
+				name: 'Hounds Tooth + Random Ships Effective Solo',
+				toons: ['chimaera', 'hound\'s_tooth']
+				
+			},
 			
 
 
@@ -263,7 +269,7 @@ Vue.component('mission', {
 			rewards: [
 				'Wave 1: 825 000',
 				],
-				preferredSquads: [11, 17],
+				preferredSquads: [22,11, 17],
 			}, 
 			{
 			id: 5,
@@ -554,7 +560,7 @@ Vue.component('mission', {
 			{id: 30, name: 'm2', type: 'platoon', position: 'right', requiredToons: [3], platzones: [5]},
 			{id: 31, name: 'b2', type: 'platoon', position: 'right', requiredToons: [4], platzones: [11,5,9]},
 			{id: 32, name: 't3', type: 'platoon', position: 'left', requiredToons: [5], platzones: [6,10]},
-			{id: 40, name: 'lsp1', type: 'platoon', position: 'right', requiredToons: [12]},
+			//{id: 40, name: 'lsp1', type: 'platoon', position: 'right', requiredToons: [12]},
 			{id: 33, name: 'm3', type: 'platoon', position: 'left', requiredToons: [6],platzones: [6]},
 			{id: 34, name: 'b3', type: 'platoon', position: 'left', requiredToons: [7], platzones: [12]},
 			{id: 35, name: 't4', type: 'platoon', position: 'left', requiredToons: [8], platzones: [6, 10]},

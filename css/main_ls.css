@@ -206,7 +206,7 @@ form input[type=submit]:hover {
 /*Mission positions*/
 .c1 {/*P4 middle battle*/
 	top: 49%;
-	left: 17%;
+	left: 18%;
 }
 .c2 {/*P4 top battle*/
 	top: 28%;
@@ -365,15 +365,15 @@ form input[type=submit]:hover {
 }
 .lsp1{/*P4 middle platoons*/
 	top: 44%;
-	left: 9%;
+	left: 7%;
 }
 .ls2{/*P4 middle special*/
 	top: 42%;
 	left: 21%;
 }
 .ls3{/*P4 middle battle*/
-	top: 38%;
-	left: 14%;
+	top: 36%;
+	left: 12%;
 }
 @media (min-width: 1700px) {
 	.map {
