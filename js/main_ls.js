@@ -241,6 +241,12 @@ Vue.component('mission', {
 				toons: ['padmé_amidala', 'jedi_knight_anakin','general_kenobi','unknown','unknown',]
 				
 			},
+			{
+				id: 42,
+				name: 'Galactic Legend Rey',
+				toons: ['gl_rey', 'resistance_hero_finn','resistance_hero_poe','bb-8','r2-d2',]
+				
+			},
              
             
              
@@ -436,7 +442,7 @@ Vue.component('mission', {
 				'Wave 3: 1 105 000',
 				'Wave 4: 1 627 500'
 				],
-			preferredSquads: [24],
+			preferredSquads: [42],
 			dangerousEnemies: [4,2,3,10,7,11,8]
 			},
 			{
@@ -514,7 +520,7 @@ Vue.component('mission', {
 				'Wave 3: 1 014 750',
 				'Wave 4: 1 377 000'
 				],
-			preferredSquads: [29,34],
+			preferredSquads: [42,29,34],
 			dangerousEnemies: [0,2,11,7,10],
 			weblinks: [5],
 			},
@@ -645,7 +651,7 @@ Vue.component('mission', {
 				'Wave 3: 840 000',
 				'Wave 4: 1 155 000',
 				],
-			preferredSquads: [29,34,35],
+			preferredSquads: [42,29,34,35],
 			dangerousEnemies: [5,10,4],
 			weblinks: [5],
 			},

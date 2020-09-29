@@ -25,7 +25,7 @@ Vue.component('mission', {
 			},
 			{
 				id: 1,
-				name: 'First Order',
+				name: 'First Order (no GL)',
 				toons: ['kylo_ren_(unmasked)', 'kylo_ren', 'first_order_executioner', 'first_order_officer', 'first_order_stormtrooper'],
 			},
 			{
@@ -136,6 +136,12 @@ Vue.component('mission', {
 				toons: ['chimaera', 'hound\'s_tooth']
 				
 			},
+			{
+				id: 23,
+				name: 'Galactic Legend Kylo',
+				toons: ['gl_kylo', 'kylo_ren', 'kylo_ren_(unmasked)','general_hux','sith_trooper']
+				
+			},
 			
 
 
@@ -150,9 +156,9 @@ Vue.component('mission', {
 			'Shaak-Ti',																													//6 (counter all, Sith Empire or Traya prefered)                                 
 			'CC-2224 "Cody"',                          																					//7
 			'Ki-Adi Mundi',                            																					//8
-			'General Kenobi (Paired with Padme; GR allies gain protection up when are attacked out of turn, tm can\'t be removed',  	//9
+			'General Kenobi (Paired with Padme)',  	//9
 			'Clone Trooper Medic',                          	                                                                        //10
-			'Padme Amidala (Galactic republic allies gain protection up when are attacked out of turn; tm can\'t be removed)',     		//11 (counter Geonosians, General Grievous)                          
+			'Padme Amidala (GR allies gain protection up when attacked out of turn; tm can\'t be removed)',     		            //11 (counter Geonosians, General Grievous)                          
 			'Grand Master Yoda (High tenacity, gain tm when resists debuffs)',                       									//12
 		],
 		platoons: [
@@ -244,7 +250,7 @@ Vue.component('mission', {
 				'Wave 3: 500 000',
 				'Wave 4: 792 000'
 				],
-			preferredSquads: [1,3,4,5],
+			preferredSquads: [23,1,3,4,5],
 			dangerousEnemies: [0, 2, 4, 6]
 			},
 			{
@@ -258,7 +264,7 @@ Vue.component('mission', {
 				'Wave 3: 500 000',
 				'Wave 4: 792 000'
 				],
-			preferredSquads: [1,3,4,5],
+			preferredSquads: [23,1,3,4,5],
 			dangerousEnemies: [0, 2, 4, 6]
 			},
 			{
@@ -292,7 +298,7 @@ Vue.component('mission', {
 				'Wave 3: 708 000',
 				'Wave 4: 1 080 000'
 				],
-			preferredSquads: [1, 2, 3, 15],
+			preferredSquads: [23,1, 2, 3, 15],
 			dangerousEnemies: [1, 2, 4, 7]
 			},
 			{id: 7,
@@ -319,7 +325,7 @@ Vue.component('mission', {
 				'Wave 3: 708 000',
 				'Wave 4: 1 080 000'
 				],
-			preferredSquads: [1, 2, 3, 15],
+			preferredSquads: [23,1, 2, 3, 15],
 			dangerousEnemies: [1, 2, 4, 7]
 			},
 			{
@@ -408,7 +414,7 @@ Vue.component('mission', {
 				'Wave 3: 910 000',
 				'Wave 4: 1 352 000'
 				],
-			preferredSquads: [0, 1, 2 , 3],
+			preferredSquads: [23, 0, 2 , 3],
 			dangerousEnemies: [1, 2, 3, 4, 5, 10]
 			},
 			{
@@ -422,7 +428,7 @@ Vue.component('mission', {
 				'Wave 3: 910 000',
 				'Wave 4: 1 352 000'
 				],
-			preferredSquads: [0, 1, 2 , 3],
+			preferredSquads: [0, 23, 2 , 3],
 			dangerousEnemies: [1, 2, 3, 4, 5, 10]
 			},
 			{
@@ -485,7 +491,7 @@ Vue.component('mission', {
 				'Wave 3: 1 038 500',
 				'Wave 4: 1 564 000',
 				],
-			preferredSquads: [0, 1, 2, 3, 15],
+			preferredSquads: [0, 23, 2, 3,15],
 			dangerousEnemies: [0, 1, 2, 4, 7, 8, 10]
 			},
 			{
@@ -499,7 +505,7 @@ Vue.component('mission', {
 				'Wave 3: 1 038 500',
 				'Wave 4: 1 564 000',
 				],
-			preferredSquads: [0, 1, 2, 3, 15],
+			preferredSquads: [23,0, 2, 3,15],
 			dangerousEnemies: [0, 1, 2, 4, 7, 8, 10]
 			},
 			{
