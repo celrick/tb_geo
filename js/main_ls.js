@@ -247,6 +247,12 @@ Vue.component('mission', {
 				toons: ['gl_rey', 'resistance_hero_finn','resistance_hero_poe','bb-8','r2-d2',]
 				
 			},
+			{
+				id:43,
+				name: 'JKR Jedi with GAS (Required: Jedi)',
+				toons: ['jedi_knight_revan', 'bastila_shan', 'jolee_bindo', 'general_skywalker', 'grand_master_yoda'],
+				 
+			 },
              
             
              
@@ -456,7 +462,7 @@ Vue.component('mission', {
 				'Wave 3: 1 105 000',
 				'Wave 4: 1 627 500'
 				],
-			preferredSquads: [33,30],
+			preferredSquads: [33,30,43],
 			dangerousEnemies: [0,5,10,1],
 			weblinks: [8],
 			},
@@ -612,7 +618,7 @@ Vue.component('mission', {
 				'Wave 3: 840 000',
 				'Wave 4: 1 155 000',
 				],
-			preferredSquads: [33,30],
+			preferredSquads: [33,30,43],
 			dangerousEnemies: [2,7,3,11],
 			weblinks: [8],
 			},
@@ -666,7 +672,7 @@ Vue.component('mission', {
 				'Wave 3: 1 092 000',
 				'Wave 4: 1 501 500',
 				],
-			preferredSquads: [30,33],
+			preferredSquads: [30,43,33],
 			dangerousEnemies: [10,4,1,5],
 			weblinks: [8],
 			},
