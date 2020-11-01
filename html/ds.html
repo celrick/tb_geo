@@ -128,7 +128,7 @@
 		<div v-if="seen" class="description" v-bind:class="'desc_' + selectedMission.position">
 			
 			<div class="mb-3" v-if="selectedMission.preferredSquads">
-				<p  class="h4">Preferred teams</p>
+				<p  class="h5">Preferred teams</p>
 				<div v-for="item in selectedMission.preferredSquads">
 					<p>{{squads[item].name}}</p>
 					<div class="img_block">
@@ -141,14 +141,14 @@
 			</div>
 			
 			<div class="mb-3" v-if="selectedMission.dangerousEnemies">
-				<p class="h4">Dangerous enemies</p>
+				<p class="h5">Dangerous enemies</p>
 				<ul>
 					<li class="text-justify" v-for="item in selectedMission.dangerousEnemies">{{enemies[item]}}</li>
 				</ul>
 			</div>
 			
 			<div class="mb-3" v-if="selectedMission.weblinks">
-				<p class="h4">Video guides (all credit to the video creator)</p>
+				<p class="h5">Video guides (all credit to the video creator)</p>
 				<ul>
 					<li class="text-justify" v-for="item in selectedMission.weblinks">{{guides[item]}}</li>
 				</ul>
@@ -168,7 +168,7 @@
 
 
 			<div class="rewards mb-3" v-if="selectedMission.rewards">
-				<p class="h4">Rewards</p>
+				<p class="h5">Rewards</p>
 				<span v-for="item in selectedMission.rewards">&nbsp;&nbsp;{{item}}&nbsp;&nbsp;&nbsp;</span>
 			</div>
 		</div>

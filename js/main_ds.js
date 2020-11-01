@@ -77,7 +77,7 @@ Vue.component('mission', {
 			{
 				id: 11,
 				name: 'Chimaera standard',
-				toons: ['hound\'s_tooth', 'imperial_tie_fighter', 'tie_silencer', 'xanadu_blood', 'emperor\'s_shuttle']
+				toons: ['chimaera','hound\'s_tooth', 'imperial_tie_fighter', 'tie_silencer', 'xanadu_blood', 'emperor\'s_shuttle']
 			},
 			{
 				id: 12,
@@ -112,7 +112,7 @@ Vue.component('mission', {
 			{
 				id: 18,
 				name: 'Chimaera with Hound\'s Tooth and bugs',
-				toons: ['hound\'s_tooth', 'geonosian_spy_starfighter', 'geonosian_soldier\'s_starfighter', 'sun_fac\'s_geonosian_starfighter', 'gauntlet_starfighter', 'slave_i']
+				toons: ['chimaera','hound\'s_tooth', 'geonosian_spy_starfighter', 'geonosian_soldier\'s_starfighter', 'sun_fac\'s_geonosian_starfighter', 'slave_i']
 			},
 			{
 				id: 19,
@@ -126,8 +126,8 @@ Vue.component('mission', {
 			},
 			{
 				id: 21,
-				name: 'Unknown Wat Tambor + Separatists (16.5k+ Power)',
-				toons: ['unknown', 'unknown','unknown','unknown','wat_tambor',]
+				name: 'Required: Wat Tambor + Separatists (16.5k+ Power)',
+				toons: ['general_grievous', 'b2_super_battle_droid', 'b1_battle_droid', 'ig100_magnaguard','wat_tambor',]
 				
 			},
 			{
@@ -142,6 +142,29 @@ Vue.component('mission', {
 				toons: ['gl_kylo', 'kylo_ren', 'kylo_ren_(unmasked)','general_hux','sith_trooper']
 				
 			},
+			{
+				id: 24,
+				name: 'Geonosian Fleet (Required: Executrix)',
+				toons: ['executrix','sun_fac\'s_geonosian_starfighter', 'geonosian_spy_starfighter', 'geonosian_soldier\'s_starfighter', 'gauntlet_starfighter', 'slave_i' ]
+				
+			},
+			{
+				id: 25,
+				name: 'Geonosian Fleet (Required: 3 Geonosian Ships)',
+				toons: ['executrix','sun_fac\'s_geonosian_starfighter', 'geonosian_spy_starfighter', 'geonosian_soldier\'s_starfighter', 'gauntlet_starfighter', 'slave_i' ]
+				
+			},
+			{
+				id: 26,
+				name: 'Finalizer and First Order',
+				toons: ['finalizer','tie_silencer','first_order_sf_tie_fighter','kylo_ren\'s_command_shuttle','scimitar' ,'first_order_tie_fighter']
+				
+			},
+			{
+				id: 27,
+				name: 'Imperial Troopers',
+				toons: ['general_veers','colonel_starck','shoretrooper','range_trooper','admiral_piett'],
+			}
 			
 
 
@@ -224,7 +247,7 @@ Vue.component('mission', {
 				'Wave 3: 500 000',
 				'Wave 4: 792 000'
 				],
-			preferredSquads: [0,1,2,3],
+			preferredSquads: [0,1,2,3,27],
 			dangerousEnemies: [1, 3, 4, 5]
 			},	{
 			id: 1,
@@ -275,7 +298,7 @@ Vue.component('mission', {
 			rewards: [
 				'Wave 1: 825 000',
 				],
-				preferredSquads: [22,11, 17],
+				preferredSquads: [22,11,26],
 			}, 
 			{
 			id: 5,
@@ -285,7 +308,7 @@ Vue.component('mission', {
 			rewards: [
 				'Wave 1: 1 072 500',
 				],
-				preferredSquads: [12, 13],
+				preferredSquads: [24],
 			}, 
 			{
 			id: 6,
@@ -298,7 +321,7 @@ Vue.component('mission', {
 				'Wave 3: 708 000',
 				'Wave 4: 1 080 000'
 				],
-			preferredSquads: [23,1, 2, 3, 15],
+			preferredSquads: [23,1, 27, 3, 15,2],
 			dangerousEnemies: [1, 2, 4, 7]
 			},
 			{id: 7,
@@ -325,7 +348,7 @@ Vue.component('mission', {
 				'Wave 3: 708 000',
 				'Wave 4: 1 080 000'
 				],
-			preferredSquads: [23,1, 2, 3, 15],
+			preferredSquads: [23,1, 27, 3, 15,2],
 			dangerousEnemies: [1, 2, 4, 7]
 			},
 			{
@@ -339,7 +362,7 @@ Vue.component('mission', {
 				'Wave 3: 708 000',
 				'Wave 4: 1 080 000'
 				],
-			preferredSquads: [0, 3, 14, 15, 6],
+			preferredSquads: [0, 3, 14, 15, 6,27],
 			dangerousEnemies: [0, 3, 8, 9]
 			},
 			{
@@ -353,7 +376,7 @@ Vue.component('mission', {
 				'Wave 3: 708 000',
 				'Wave 4: 1 080 000'
 				],
-			preferredSquads: [0, 3, 14, 15, 6],
+			preferredSquads: [0, 3, 14, 15, 6,27],
 			dangerousEnemies: [0, 3, 8, 9]
 			},
 			{
@@ -364,7 +387,7 @@ Vue.component('mission', {
 			rewards: [
 				'Wave 1: 1 665 000',
 				],
-			preferredSquads: [11, 17],
+			preferredSquads: [11,26],
 			},
 			{
 			id: 12,
@@ -374,7 +397,7 @@ Vue.component('mission', {
 			rewards: [
 				'Wave 1: 2 164 500',
 				],
-			preferredSquads: [12, 13],
+			preferredSquads: [25],
 			},
 			{id: 13,
 			name: 'c14',
@@ -386,7 +409,7 @@ Vue.component('mission', {
 				'Wave 3: 910 000',
 				'Wave 4: 1 352 000'
 				],
-			preferredSquads: [3, 4, 5],
+			preferredSquads: [27,3, 4, 5],
 			dangerousEnemies: [2, 4, 6, 8, 10]
 			},
 			{
@@ -439,7 +462,7 @@ Vue.component('mission', {
 			rewards: [
 				'Wave 1: 2 530 000',
 				],
-			preferredSquads: [18, 13],	
+			preferredSquads: [18,26],	
 			},
 			{
 			id: 18,
@@ -452,7 +475,7 @@ Vue.component('mission', {
 				'Wave 3: 1 038 500',
 				'Wave 4: 1 564 000',
 				],
-			preferredSquads: [3, 4, 15, 6, 7],
+			preferredSquads: [3, 4, 15,27, 7],
 			dangerousEnemies: [2, 3, 4, 5, 6, 9, 11, 12]
 			},
 			{id: 19,
@@ -465,7 +488,7 @@ Vue.component('mission', {
 				'Wave 3: 1 038 500',
 				'Wave 4: 1 564 000',
 				],
-			preferredSquads: [3, 4, 15, 6, 7],
+			preferredSquads: [3, 4, 15,27, 7],
 			dangerousEnemies: [2, 3, 4, 5, 6, 9, 11, 12]
 			},
 			{
@@ -491,7 +514,7 @@ Vue.component('mission', {
 				'Wave 3: 1 038 500',
 				'Wave 4: 1 564 000',
 				],
-			preferredSquads: [0, 23, 2, 3,15],
+			preferredSquads: [0, 23, 27, 3,15],
 			dangerousEnemies: [0, 1, 2, 4, 7, 8, 10]
 			},
 			{
@@ -505,7 +528,7 @@ Vue.component('mission', {
 				'Wave 3: 1 038 500',
 				'Wave 4: 1 564 000',
 				],
-			preferredSquads: [23,0, 2, 3,15],
+			preferredSquads: [23,0, 27, 3,15],
 			dangerousEnemies: [0, 1, 2, 4, 7, 8, 10]
 			},
 			{
