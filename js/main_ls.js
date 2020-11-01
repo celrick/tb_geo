@@ -193,7 +193,7 @@ Vue.component('mission', {
              {
 				id:33,
 				name: 'JKL Lead (see video) (Required: Jedi)',
-				toons: ['jedi_knight_luke_skywalker', 'hermit_yoda', 'grand_master_yoda', 'aayla_secura', 'obi-wan_kenobi_(old_ben)'],
+				toons: ['jedi_knight_luke_skywalker', 'hermit_yoda', 'obi-wan_kenobi_(old_ben)', 'grand_master_yoda', 'aayla_secura'],
 			 },
 			 {
 				id: 34,
@@ -253,6 +253,19 @@ Vue.component('mission', {
 				toons: ['jedi_knight_revan', 'bastila_shan', 'jolee_bindo', 'general_skywalker', 'grand_master_yoda'],
 				 
 			 },
+			 {
+				id:44,
+				name: 'CLS and Rebels',
+				toons: ['commander_luke_skywalker', 'chewbacca', 'han_solo', 'threepio_&_chewie', 'c-3po'],
+				 
+			 },
+			 {
+				id:45,
+				name: 'Rebel Fighters',
+				toons: ['mon_mothma', 'pao', 'hoth_rebel_scout', 'chirrut_imwe', 'baze_malbus'],
+				 
+			 },
+             
              
             
              
@@ -421,7 +434,7 @@ Vue.component('mission', {
 				'Wave 3: 1 105 000',
 				'Wave 4: 1 627 500'
 				],
-			preferredSquads: [37],
+			preferredSquads: [44,45,37],
 			dangerousEnemies: [4,2,3,10,7,11,8]
 			},
 			{id: 7, // GR Jedi mission
@@ -448,7 +461,7 @@ Vue.component('mission', {
 				'Wave 3: 1 105 000',
 				'Wave 4: 1 627 500'
 				],
-			preferredSquads: [42],
+			preferredSquads: [42,44,45],
 			dangerousEnemies: [4,2,3,10,7,11,8]
 			},
 			{
@@ -526,7 +539,7 @@ Vue.component('mission', {
 				'Wave 3: 1 014 750',
 				'Wave 4: 1 377 000'
 				],
-			preferredSquads: [42,29,34],
+			preferredSquads: [42,29,34, 44,45],
 			dangerousEnemies: [0,2,11,7,10],
 			weblinks: [5],
 			},
@@ -541,7 +554,7 @@ Vue.component('mission', {
 				'Wave 3: 1 014 750',
 				'Wave 4: 1 377 000'
 				],
-			preferredSquads: [34,29],
+			preferredSquads: [34,42,29, 44, 45],
 			dangerousEnemies: [0,5,1,8,4,3]
 			},
 			{
@@ -632,7 +645,7 @@ Vue.component('mission', {
 				'Wave 3: 840 000',
 				'Wave 4: 1 155 000',
 				],
-			preferredSquads: [34,35,29],
+			preferredSquads: [34,42,29,44,45],
 			dangerousEnemies: [2,7,3,11]
 			},
 			{
@@ -657,7 +670,7 @@ Vue.component('mission', {
 				'Wave 3: 840 000',
 				'Wave 4: 1 155 000',
 				],
-			preferredSquads: [42,29,34,35],
+			preferredSquads: [42,29,44,45,34],
 			dangerousEnemies: [5,10,4],
 			weblinks: [5],
 			},
