@@ -77,7 +77,7 @@ Vue.component('mission', {
 			{
 				id: 11,
 				name: 'Chimaera standard',
-				toons: ['hound\'s_tooth', 'imperial_tie_fighter', 'tie_silencer', 'xanadu_blood', 'emperor\'s_shuttle']
+				toons: ['chimaera','hound\'s_tooth', 'imperial_tie_fighter', 'tie_silencer', 'xanadu_blood', 'emperor\'s_shuttle']
 			},
 			{
 				id: 12,
@@ -112,7 +112,7 @@ Vue.component('mission', {
 			{
 				id: 18,
 				name: 'Chimaera with Hound\'s Tooth and bugs',
-				toons: ['hound\'s_tooth', 'geonosian_spy_starfighter', 'geonosian_soldier\'s_starfighter', 'sun_fac\'s_geonosian_starfighter', 'gauntlet_starfighter', 'slave_i']
+				toons: ['chimaera','hound\'s_tooth', 'geonosian_spy_starfighter', 'geonosian_soldier\'s_starfighter', 'sun_fac\'s_geonosian_starfighter', 'slave_i']
 			},
 			{
 				id: 19,
@@ -140,6 +140,24 @@ Vue.component('mission', {
 				id: 23,
 				name: 'Galactic Legend Kylo',
 				toons: ['gl_kylo', 'kylo_ren', 'kylo_ren_(unmasked)','general_hux','sith_trooper']
+				
+			},
+			{
+				id: 24,
+				name: 'Geonosian Fleet (Required: Executrix)',
+				toons: ['executrix','sun_fac\'s_geonosian_starfighter', 'geonosian_spy_starfighter', 'geonosian_soldier\'s_starfighter', 'gauntlet_starfighter', 'slave_i' ]
+				
+			},
+			{
+				id: 25,
+				name: 'Geonosian Fleet (Required: 3 Geonosian Ships)',
+				toons: ['executrix','sun_fac\'s_geonosian_starfighter', 'geonosian_spy_starfighter', 'geonosian_soldier\'s_starfighter', 'gauntlet_starfighter', 'slave_i' ]
+				
+			},
+			{
+				id: 26,
+				name: 'Finalizer and First Order',
+				toons: ['finalizer','tie_silencer','first_order_sf_tie_fighter','kylo_ren\'s_command_shuttle','scimitar' ,'first_order_tie_fighter']
 				
 			},
 			
@@ -275,7 +293,7 @@ Vue.component('mission', {
 			rewards: [
 				'Wave 1: 825 000',
 				],
-				preferredSquads: [22,11, 17],
+				preferredSquads: [22,11,26],
 			}, 
 			{
 			id: 5,
@@ -285,7 +303,7 @@ Vue.component('mission', {
 			rewards: [
 				'Wave 1: 1 072 500',
 				],
-				preferredSquads: [12, 13],
+				preferredSquads: [24],
 			}, 
 			{
 			id: 6,
@@ -364,7 +382,7 @@ Vue.component('mission', {
 			rewards: [
 				'Wave 1: 1 665 000',
 				],
-			preferredSquads: [11, 17],
+			preferredSquads: [11,26],
 			},
 			{
 			id: 12,
@@ -374,7 +392,7 @@ Vue.component('mission', {
 			rewards: [
 				'Wave 1: 2 164 500',
 				],
-			preferredSquads: [12, 13],
+			preferredSquads: [25],
 			},
 			{id: 13,
 			name: 'c14',
@@ -439,7 +457,7 @@ Vue.component('mission', {
 			rewards: [
 				'Wave 1: 2 530 000',
 				],
-			preferredSquads: [18, 13],	
+			preferredSquads: [18,26],	
 			},
 			{
 			id: 18,
