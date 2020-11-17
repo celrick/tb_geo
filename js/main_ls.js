@@ -219,8 +219,8 @@ Vue.component('mission', {
              },
              {
 				id: 38,
-				name: 'Unknown (Required: Galactic Republic Jedi, 22k+ Power)',
-				toons: ['unknown', 'unknown','unknown','unknown','unknown',]
+				name: 'Required: Galactic Republic Jedi, 22k+ Power',
+				toons: ['general_kenobi', 'jedi_knight_anakin','grand_master_yoda','ahsoka_tano','barriss_offee',]
 				
 			},
 			{
@@ -231,14 +231,14 @@ Vue.component('mission', {
 			},
 			{
 				id: 40,
-				name: 'Unknown (Required: GAS & 501st, 23k+ Power)',
-				toons: ['general_skywalker', 'unknown','unknown','unknown','unknown',]
+				name: 'Required: GAS & 501st, 23k+ Power',
+				toons: ['general_skywalker', 'ct-21-0408__echo_','ct-7567__rex_','arc_trooper','ct-5555__fives_',]
 				
 			},
 			{
 				id: 41,
-				name: 'Unknown (Required: Galactic Republic, Padme, JKA, GK, 23k+ Power)',
-				toons: ['padmé_amidala', 'jedi_knight_anakin','general_kenobi','unknown','unknown',]
+				name: 'Required: Galactic Republic, Padme, JKA, GK, 23k+ Power',
+				toons: ['padmé_amidala', 'jedi_knight_anakin','general_kenobi','ahsoka_tano','barriss_offee',]
 				
 			},
 			{
@@ -384,7 +384,7 @@ Vue.component('mission', {
 				'Wave 3: 1 242 500',
 				'Wave 4: 1 837 500'
 				],
-			preferredSquads: [24],
+			preferredSquads: [44,42],
 			dangerousEnemies: [0,1,8,5,10]
 			},
 			{
@@ -434,7 +434,7 @@ Vue.component('mission', {
 				'Wave 3: 1 105 000',
 				'Wave 4: 1 627 500'
 				],
-			preferredSquads: [44,45,37],
+			preferredSquads: [44,42,45],
 			dangerousEnemies: [4,2,3,10,7,11,8]
 			},
 			{id: 7, // GR Jedi mission
@@ -605,7 +605,7 @@ Vue.component('mission', {
 				'Wave 3: 1 242 500',
 				'Wave 4: 1 837 500'
 				],
-			preferredSquads: [24],
+			preferredSquads: [42,44],
 			dangerousEnemies: [4,3,11,2,7]
 		    },
 			{
