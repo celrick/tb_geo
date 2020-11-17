@@ -129,12 +129,12 @@ Vue.component('mission', {
 			{
 				id: 21, 
 				name: 'Required: GAS and Snips (21k+ Power)',
-				toons: ['general_skywalker','ahsoka_tano'] 
+				toons: ['general_skywalker','ahsoka_tano','noone','noone','noone'] 
 			},
 			{
 				id: 22, 
 				name: 'Required: Kenobi and Clones (21k+ Power)',
-				toons: ['general_kenobi','cc-2224__cody_', 'clone_sergeant_-_phase_i'] 
+				toons: ['general_kenobi','cc-2224__cody_', 'clone_sergeant_-_phase_i','noone','noone'] 
 			},
 			{
 				id: 23,
@@ -243,7 +243,7 @@ Vue.component('mission', {
 			},
 			{
 				id: 42,
-				name: 'Galactic Legend Rey',
+				name: 'Galactic Legend Rey (variants available)',
 				toons: ['gl_rey', 'resistance_hero_finn','resistance_hero_poe','bb-8','r2-d2',]
 				
 			},
@@ -264,6 +264,21 @@ Vue.component('mission', {
 				name: 'Rebel Fighters',
 				toons: ['mon_mothma', 'pao', 'hoth_rebel_scout', 'chirrut_imwe', 'baze_malbus'],
 				 
+			 },
+			 {
+				 id:46,
+				 name: 'Galactic Legend Luke (Required: Jedi) (variants available)',
+				 toons: ['gl_luke', 'jedi_knight_luke_skywalker','hermit_yoda','obi-wan_kenobi_(old_ben)','ezra_bridger',],
+			 },
+			 {
+				 id:47,
+				 name: 'Galactic Legend Luke (Required: Jedi, 23k+ Power) (variants available)',
+				 toons: ['gl_luke', 'jedi_knight_luke_skywalker','hermit_yoda','jolee_bindo','jedi_knight_revan',],
+			 },
+			 {
+				 id:48,
+				 name: 'Galactic Legend Luke (Required: Jedi) (variants available)',
+				 toons: ['gl_luke', 'jedi_knight_luke_skywalker','hermit_yoda','jolee_bindo','jedi_knight_revan',],
 			 },
              
              
@@ -360,7 +375,7 @@ Vue.component('mission', {
 				'Wave 3: 1 242 500',
 				'Wave 4: 1 837 500'
 				],
-			preferredSquads: [39],
+			preferredSquads: [47],
 			dangerousEnemies: [4,3,11,2,7]
 			},	{
 			id: 1,
@@ -475,7 +490,7 @@ Vue.component('mission', {
 				'Wave 3: 1 105 000',
 				'Wave 4: 1 627 500'
 				],
-			preferredSquads: [33,30,43],
+			preferredSquads: [48,33,30,43],
 			dangerousEnemies: [0,5,10,1],
 			weblinks: [8],
 			},
@@ -568,7 +583,7 @@ Vue.component('mission', {
 				'Wave 3: 1 014 750',
 				'Wave 4: 1 377 000'
 				],
-			preferredSquads: [33,30],
+			preferredSquads: [48,33,30],
 			dangerousEnemies: [0,5,1,8,4,3],
 			weblinks: [8],
 			},
@@ -631,7 +646,7 @@ Vue.component('mission', {
 				'Wave 3: 840 000',
 				'Wave 4: 1 155 000',
 				],
-			preferredSquads: [33,30,43],
+			preferredSquads: [46,43,30,33],
 			dangerousEnemies: [2,7,3,11],
 			weblinks: [8],
 			},
@@ -685,7 +700,7 @@ Vue.component('mission', {
 				'Wave 3: 1 092 000',
 				'Wave 4: 1 501 500',
 				],
-			preferredSquads: [30,43,33],
+			preferredSquads: [46,43,30,33],
 			dangerousEnemies: [10,4,1,5],
 			weblinks: [8],
 			},
