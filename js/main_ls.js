@@ -280,6 +280,17 @@ Vue.component('mission', {
 				 name: 'Galactic Legend Luke (Required: Jedi) (variants available)',
 				 toons: ['gl_luke', 'jedi_knight_luke_skywalker','hermit_yoda','jolee_bindo','jedi_knight_revan',],
 			 },
+			 {
+                id:49,
+                name: 'Padme republic without snips (Required: Galactic Republic)',
+                toons: ['padmé_amidala','jedi_knight_anakin','general_kenobi','c-3po', 'barriss_offee'],
+             },
+              {
+				id: 50,
+				name: 'Shaak-ti Lead Clones (Required: Galactic Republic)',
+				toons: ['shaak_ti', 'arc_trooper', 'ct-21-0408__echo_', 'ct-7567__rex_', 'ct-5555__fives_']
+				
+			},
              
              
             
@@ -540,7 +551,7 @@ Vue.component('mission', {
 				'Wave 3: 1 014 750',
 				'Wave 4: 1 377 000'
 				],
-			preferredSquads: [36],
+			preferredSquads: [49,50],
 			dangerousEnemies: [0,2,11,7,10]
 			},
 			{
