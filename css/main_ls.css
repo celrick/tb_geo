@@ -115,16 +115,16 @@ text:hover {
 }
 /* Home button text */
 .bottom-left {
-  position: absolute;
-  bottom: -16px;
+  position: fixed;
+  bottom: 0px;
   left: 250px;
   font-size: 1.6rem;
   color: white;
 }
 /* Other map text */
 .bottom-right {
-  position: absolute;
-  bottom: -16px;
+  position: fixed;
+  bottom: 0px;
   right: 250px;
   font-size: 1.6rem;
   color: white;
