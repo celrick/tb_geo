@@ -113,6 +113,22 @@ text:hover {
 	background: url('../media/focus.svg') no-repeat;
 	background-size: contain;
 }
+/* Home button text */
+.bottom-left {
+  position: absolute;
+  bottom: -16px;
+  left: 250px;
+  font-size: 1.6rem;
+  color: white;
+}
+/* Other map text */
+.bottom-right {
+  position: absolute;
+  bottom: -16px;
+  right: 250px;
+  font-size: 1.6rem;
+  color: white;
+}
 
 
 
@@ -159,49 +175,6 @@ td {
 	width: 4%;
 }
 
-
-form {
-	position: fixed;
-	right: 0.3%;
-	bottom: 0.6%;
-	color: #ffffff;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	background-color: rgb(35, 48, 67, 0.9);
-	padding: 0.6rem;
-	border-radius: 0.3rem;
-	font-size: 0.9rem;
-}
-form label {
-	margin-bottom: 0;
-	margin-right: 1%;
-}
-form label:hover {
-	cursor: pointer;
-	color: #d56a13;
-}
-
-form input[type="radio"] {
-	cursor: pointer;
-}
-
-form input[type=submit] {
-	border: none;
-	outline: none;
-	background-color: lightgrey;
-	color: #000000;
-	border-radius: 1rem;
-	cursor: pointer;
-	
-
-}
-form input[type=submit]:hover {
-	transform: scale(1.05);
-	background-color: #d56a13;
-	transition: 1s all ease;
-	
-}
 
 /*Mission positions*/
 .c1 {/*P4 middle battle*/

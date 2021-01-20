@@ -113,7 +113,22 @@ text:hover {
 	background: url('../media/focus.svg') no-repeat;
 	background-size: contain;
 }
-
+/* Home button text */
+.bottom-left {
+  position: absolute;
+  bottom: -16px;
+  left: 250px;
+  font-size: 1.6rem;
+  color: white;
+}
+/* Other map text */
+.bottom-right {
+  position: absolute;
+  bottom: -16px;
+  right: 250px;
+  font-size: 1.6rem;
+  color: white;
+}
 
 
 
@@ -391,3 +406,4 @@ form input[type=submit]:hover {
 		margin-right: 0.5%;
 	}
 }
+
