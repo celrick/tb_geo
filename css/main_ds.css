@@ -114,21 +114,14 @@ text:hover {
 	background-size: contain;
 }
 /* Home button text */
-.bottom-left {
+.top-left {
   position: fixed;
-  bottom: 0px;
-  left: 250px;
+  top: 0px;
+  left: 0px;
   font-size: 1.6rem;
   color: white;
 }
-/* Other map text */
-.bottom-right {
-  position: fixed;
-  bottom: 0px;
-  right: 350px;
-  font-size: 1.6rem;
-  color: white;
-}
+
 
 
 
