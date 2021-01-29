@@ -396,7 +396,7 @@ Vue.component('mission', {
 			rewards: [
 				'Wave 1: 2,750,000'
 				],
-			preferredSquads: [31,32,26],
+			preferredSquads: [31,32],
 			dangerousEnemies: [12,14,16],
 			weblinks: [6,7],
 			}, {
@@ -433,7 +433,7 @@ Vue.component('mission', {
 			rewards: [
 				'Wave 1: 1 800 000',
 				],
-				preferredSquads: [31,32,26],
+				preferredSquads: [31,32],
 				dangerousEnemies: [12,14,16],
 				weblinks : [6,7],
 			}, 
@@ -446,7 +446,7 @@ Vue.component('mission', {
 			rewards: [
 				'32 GET2',
 				],
-				preferredSquads: [31,26],
+				preferredSquads: [31],
 				dangerousEnemies: [13],
 			}, 
 			{
@@ -525,7 +525,7 @@ Vue.component('mission', {
 			rewards: [
 				'Wave 1: 900,000',
 				],
-			preferredSquads: [31,32,26],
+			preferredSquads: [31,32],
 			dangerousEnemies: [12,14,16],
 			weblinks : [6,7],
 			},
@@ -537,7 +537,7 @@ Vue.component('mission', {
 			rewards: [
 				'21 GET2',
 				],
-			preferredSquads: [31,26],
+			preferredSquads: [31],
 			dangerousEnemies: [13],
 			//weblinks : [6],
 			},
@@ -642,7 +642,7 @@ Vue.component('mission', {
 			rewards: [
 				'Wave 1: 523 900',
 				],
-			preferredSquads: [31,32,26],	
+			preferredSquads: [31,32],	
 			dangerousEnemies: [12,14,16],
 			weblinks: [6,7],
 			},

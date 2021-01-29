@@ -113,6 +113,14 @@ text:hover {
 	background: url('../media/focus.svg') no-repeat;
 	background-size: contain;
 }
+/* Home button text */
+.top-left {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  font-size: 2.0vw;
+  color: white;
+}
 
 
 
@@ -391,3 +399,4 @@ form input[type=submit]:hover {
 		margin-right: 0.5%;
 	}
 }
+
