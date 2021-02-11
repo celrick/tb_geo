@@ -282,15 +282,27 @@ Vue.component('mission', {
 			 },
 			 {
                 id:49,
-                name: 'Padme republic without snips (Required: Galactic Republic)',
+                name: 'Padme Republic Without Snips (Required: Galactic Republic)',
                 toons: ['padmé_amidala','jedi_knight_anakin','general_kenobi','c-3po', 'barriss_offee'],
              },
-              {
+             {
 				id: 50,
 				name: 'Shaak-ti Lead Clones (Required: Galactic Republic)',
 				toons: ['shaak_ti', 'arc_trooper', 'ct-21-0408__echo_', 'ct-7567__rex_', 'ct-5555__fives_']
 				
-			},
+			 },
+			 {
+				id: 51,
+				name: 'Home One Rebel Fleet',
+				toons: ['home_one', 'han\'s_millennium_falcon', 'biggs_darklighter\'s_x-wing', 'bistan\'s_u-wing', 'rebel_y-wing', 'phantom_ii', 'cassian\'s_u-wing','ghost']
+				
+		 	 },
+		 	 {
+				id: 52,
+				name: 'Raddus Resistance Fleet',
+				toons: ['raddus','poe_dameron\'s_x-wing','rey\'s_millennium_falcon', 'biggs_darklighter\'s_x-wing', 'han\'s_millennium_falcon', 'ebon_hawk', "lando\'s_millennium_falcon","resistance_x-wing"]
+				
+		 	 },
              
              
             
@@ -396,7 +408,7 @@ Vue.component('mission', {
 			rewards: [
 				'Wave 1: 2,750,000'
 				],
-			preferredSquads: [31,32],
+			preferredSquads: [51,52,32],
 			dangerousEnemies: [12,14,16],
 			weblinks: [6,7],
 			}, {
@@ -433,7 +445,7 @@ Vue.component('mission', {
 			rewards: [
 				'Wave 1: 1 800 000',
 				],
-				preferredSquads: [31,32],
+				preferredSquads: [51,52,32],
 				dangerousEnemies: [12,14,16],
 				weblinks : [6,7],
 			}, 
@@ -525,7 +537,7 @@ Vue.component('mission', {
 			rewards: [
 				'Wave 1: 900,000',
 				],
-			preferredSquads: [31,32],
+			preferredSquads: [51,52,32],
 			dangerousEnemies: [12,14,16],
 			weblinks : [6,7],
 			},
@@ -642,7 +654,7 @@ Vue.component('mission', {
 			rewards: [
 				'Wave 1: 523 900',
 				],
-			preferredSquads: [31,32],	
+			preferredSquads: [31,32,51,52],	
 			dangerousEnemies: [12,14,16],
 			weblinks: [6,7],
 			},
@@ -767,7 +779,7 @@ Vue.component('mission', {
 				'20 GET2',
 				],
 			dangerousEnemies: [13],
-			preferredSquads:[24]
+			preferredSquads:[31]
 			},
 			
 			/* Platoons */
