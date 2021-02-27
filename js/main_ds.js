@@ -82,7 +82,7 @@ Vue.component('mission', {
 			{
 				id: 12,
 				name: 'Executrix standard',
-				toons: ['sun_fac\'s_geonosian_starfighter', 'geonosian_spy_starfighter', 'geonosian_soldier\'s_starfighter', 'gauntlet_starfighter', 'slave_i' ]
+				toons: ['sun_fac\'s_geonosian_starfighter', 'geonosian_spy_starfighter', 'geonosian_soldier\'s_starfighter', 'hyena_bomber','vulture_droid']
 			},
 			{
 				id: 13,
@@ -145,13 +145,13 @@ Vue.component('mission', {
 			{
 				id: 24,
 				name: 'Geonosian Fleet (Required: Executrix)',
-				toons: ['executrix','sun_fac\'s_geonosian_starfighter', 'geonosian_spy_starfighter', 'geonosian_soldier\'s_starfighter', 'gauntlet_starfighter', 'slave_i' ]
+				toons: ['executrix','sun_fac\'s_geonosian_starfighter', 'geonosian_spy_starfighter', 'geonosian_soldier\'s_starfighter', 'hyena_bomber','vulture_droid']
 				
 			},
 			{
 				id: 25,
 				name: 'Geonosian Fleet (Required: 3 Geonosian Ships)',
-				toons: ['executrix','sun_fac\'s_geonosian_starfighter', 'geonosian_spy_starfighter', 'geonosian_soldier\'s_starfighter', 'gauntlet_starfighter', 'slave_i' ]
+				toons: ['executrix','sun_fac\'s_geonosian_starfighter', 'geonosian_spy_starfighter', 'geonosian_soldier\'s_starfighter', 'hyena_bomber','vulture_droid']
 				
 			},
 			{
