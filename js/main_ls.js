@@ -192,7 +192,7 @@ Vue.component('mission', {
              },
              {
 				id:33,
-				name: 'JKL Lead (see video) (Required: Jedi)',
+				name: 'JKL Lead (Required: Jedi)',
 				toons: ['jedi_knight_luke_skywalker', 'hermit_yoda', 'obi-wan_kenobi_(old_ben)', 'grand_master_yoda', 'aayla_secura'],
 			 },
 			 {
@@ -247,7 +247,7 @@ Vue.component('mission', {
 				toons: ['gl_rey', 'resistance_hero_finn','resistance_hero_poe','bb-8','r2-d2',]
 				
 			},
-			{
+			 {
 				id:43,
 				name: 'JKR Jedi with GAS (Required: Jedi)',
 				toons: ['jedi_knight_revan', 'bastila_shan', 'jolee_bindo', 'general_skywalker', 'grand_master_yoda'],
@@ -303,8 +303,60 @@ Vue.component('mission', {
 				toons: ['raddus','poe_dameron\'s_x-wing','rey\'s_millennium_falcon', 'biggs_darklighter\'s_x-wing', 'han\'s_millennium_falcon', 'ebon_hawk', "lando\'s_millennium_falcon","resistance_x-wing"]
 				
 		 	 },
-             
-             
+             {
+                id:53,
+                name: 'Padme Republic (Required: Padme, Galactic Republic 16.5k+ Power)',
+                toons: ['padmé_amidala','jedi_knight_anakin','general_kenobi','c-3po', 'ahsoka_tano'],
+             },
+             {
+				id: 54,
+				name: 'Shaak-ti Lead Clones (Required: Galactic Republic, 21k+ Power)',
+				toons: ['shaak_ti', 'arc_trooper', 'ct-21-0408__echo_', 'ct-7567__rex_', 'ct-5555__fives_']
+				
+			 },
+             {
+                id:55,
+                name: 'Padme Republic Without Snips (Required: Galactic Republic, 21k+ Power)',
+                toons: ['padmé_amidala','jedi_knight_anakin','general_kenobi','c-3po', 'barriss_offee'],
+             },
+             {
+				 id:56,
+				 name: 'Galactic Legend Luke (Required: Jedi, 21k+ Power) (variants available)',
+				 toons: ['gl_luke', 'jedi_knight_luke_skywalker','hermit_yoda','jolee_bindo','jedi_knight_revan',],
+			 },
+			 {
+				id:57,
+				name: 'JKL Lead (Required: Jedi, 21k+ Power)',
+				toons: ['jedi_knight_luke_skywalker', 'hermit_yoda', 'obi-wan_kenobi_(old_ben)', 'grand_master_yoda', 'aayla_secura'],
+			 },
+			 {
+				id:58,
+				name: 'JKR Jedi (Required: Jedi, 21k+ Power)',
+				toons: ['jedi_knight_revan', 'bastila_shan', 'jolee_bindo', 'hermit_yoda', 'grand_master_yoda'],
+				 
+			 },
+			 {
+				 id:59,
+				 name: 'Galactic Legend Luke (Required: Jedi, 22k+ Power) (variants available)',
+				 toons: ['gl_luke', 'jedi_knight_luke_skywalker','hermit_yoda','jolee_bindo','jedi_knight_revan',],
+			 },
+			 {
+				id:60,
+				name: 'JKL Lead (Required: Jedi, 22k+ Power)',
+				toons: ['jedi_knight_luke_skywalker', 'hermit_yoda', 'obi-wan_kenobi_(old_ben)', 'grand_master_yoda', 'aayla_secura'],
+			 },
+			 {
+				id:61,
+				name: 'JKR Jedi (Required: Jedi, 22k+ Power)',
+				toons: ['jedi_knight_revan', 'bastila_shan', 'jolee_bindo', 'hermit_yoda', 'grand_master_yoda'],
+				 
+			 },
+			 {
+				id:62,
+				name: 'JKR Jedi with GAS (Required: Jedi, 22k+ Power)',
+				toons: ['jedi_knight_revan', 'bastila_shan', 'jolee_bindo', 'general_skywalker', 'grand_master_yoda'],
+				 
+			 },
             
              
 
@@ -359,7 +411,7 @@ Vue.component('mission', {
         ['Ahsoka Tano  100'], //test platoon 13
 		],
 		guides:[
-		'AhnaldT101 Ki-Adi Mundi guide: www.youtube.com/watch?v=SzdEEvL7z40',
+		'See also: 50 Shards of Kam Discord Server',
 		'Its Just Ian Modding and Strategy: www.youtube.com/watch?v=9eLKxWumn_Y',
 		'McMole2 Defeat the Reek: www.youtube.com/watch?v=ktfNTjiUiGY',
 		'Mikayas Sky & Ahsoka guide www.youtube.com/watch?v=rWu4qahiA-g',
@@ -513,7 +565,7 @@ Vue.component('mission', {
 				'Wave 3: 1 105 000',
 				'Wave 4: 1 627 500'
 				],
-			preferredSquads: [48,33,30,43],
+			preferredSquads: [59,60,61,62],
 			dangerousEnemies: [0,5,10,1],
 			weblinks: [8],
 			},
@@ -525,7 +577,7 @@ Vue.component('mission', {
 			rewards: [
 				'1 whole KAM Shard'
 				],
-		    weblinks: [0,1,2],
+		    weblinks: [1,2,0],
 			preferredSquads: [23],
 			dangerousEnemies: [9,6],
 			},
@@ -563,7 +615,7 @@ Vue.component('mission', {
 				'Wave 3: 1 014 750',
 				'Wave 4: 1 377 000'
 				],
-			preferredSquads: [49,50],
+			preferredSquads: [55,54],
 			dangerousEnemies: [0,2,11,7,10]
 			},
 			{
@@ -606,7 +658,7 @@ Vue.component('mission', {
 				'Wave 3: 1 014 750',
 				'Wave 4: 1 377 000'
 				],
-			preferredSquads: [48,33,30],
+			preferredSquads: [56,57,58],
 			dangerousEnemies: [0,5,1,8,4,3],
 			weblinks: [8],
 			},
@@ -695,7 +747,7 @@ Vue.component('mission', {
 				'15 GET2',
 				],
 				dangerousEnemies: [10,7,1,3],
-				preferredSquads: [28]
+				preferredSquads: [53]
 			},
 			{
 			id: 21,
