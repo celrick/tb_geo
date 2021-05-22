@@ -126,7 +126,7 @@ Vue.component('mission', {
 			},
 			{
 				id: 21,
-				name: 'Required: Wat Tambor + Separatists (16.5k+ Power)',
+				name: 'Separatist Droids (Required: 16.5k+ Power, Wat Tambor)',
 				toons: ['general_grievous', 'b2_super_battle_droid', 'b1_battle_droid', 'ig100_magnaguard','wat_tambor',]
 				
 			},
@@ -169,8 +169,13 @@ Vue.component('mission', {
 				id: 28,
 				name: 'Sith Eternal + Leftover Sith (Variants Available)',
 				toons: ['gl_palp','darth_sion','darth_nihilus','darth_maul','darth_sidious'],
+			},
+			{
+				id: 29,
+				name: 'Geonosians (Required: 16.5k+ Power, Wat Tambor)',
+				toons: ['geonosian_brood_alpha', 'geonosian_spy', 'poggle_the_lesser', 'sun_fac','wat_tambor',]
+				
 			}
-			
 
 
 		],
@@ -578,7 +583,7 @@ Vue.component('mission', {
 				'40 GET2',
 				],
 		    //weblinks: [],
-		    preferredSquads: [21],
+		    preferredSquads: [21,29],
 			dangerousEnemies: [0, 2, 4, 7]
 			},
 			/* Platoons */
