@@ -1,3 +1,5 @@
+# Interactive Geo TB Map
+## About
 This tool is designed for helping guilds achieve their maximum potential
 in geonosis tb. The original code was designed by 
 https://github.com/jetkokos and was adapted freely under the licence
@@ -11,8 +13,9 @@ https://genskaar.github.io/tb_geo/
 
 
 
+## TODO List
+<a href="https://github.com/genskaar/tb_geo/issues"> See Issues page </a>
 
-TODO List
-**see issues on the github page**
 
-
+### Authors/Contact
+<a href="https://genskaar.github.io/tb_geo/html/authors.html"> See Authors page </a>
