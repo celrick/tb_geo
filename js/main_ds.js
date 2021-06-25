@@ -308,7 +308,7 @@ Vue.component('mission', {
 			rewards: [
 				'Wave 1: 825 000',
 				],
-				preferredSquads: [22,11,26],
+				preferredSquads: [22,11],
 			}, 
 			{
 			id: 5,
