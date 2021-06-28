@@ -150,7 +150,7 @@ Vue.component('mission', {
 			},
 			{
 				id: 25,
-				name: 'Geonosian Fleet (Required: 3 Geonosian Ships)',
+				name: 'Executrix + Geonosian Fleet (Required: 3 Geonosian Ships)',
 				toons: ['executrix','sun_fac\'s_geonosian_starfighter', 'geonosian_spy_starfighter', 'geonosian_soldier\'s_starfighter', 'hyena_bomber','vulture_droid']
 				
 			},
@@ -175,8 +175,19 @@ Vue.component('mission', {
 				name: 'Geonosians (Required: 16.5k+ Power, Wat Tambor)',
 				toons: ['geonosian_brood_alpha', 'geonosian_spy', 'poggle_the_lesser', 'sun_fac','wat_tambor',]
 				
+			},
+			{
+				id: 30,
+				name: 'Malevolence Fleet',
+				toons: ['malevolence', 'hyena_bomber', 'vulture_droid','sun_fac\'s_geonosian_starfighter', 'geonosian_spy_starfighter', 'geonosian_soldier\'s_starfighter']
+				
+			},
+			{
+				id: 31,
+				name: 'Malevolence + Geonosian Fleet (Required: 3 Geonosian Ships)',
+				toons: ['malevolence','sun_fac\'s_geonosian_starfighter', 'geonosian_spy_starfighter', 'geonosian_soldier\'s_starfighter', 'hyena_bomber','vulture_droid']
+				
 			}
-
 
 		],
 		enemies: [
@@ -407,7 +418,7 @@ Vue.component('mission', {
 			rewards: [
 				'Wave 1: 2 164 500',
 				],
-			preferredSquads: [25],
+			preferredSquads: [31,25],
 			},
 			{id: 13,
 			name: 'c14',
@@ -472,7 +483,7 @@ Vue.component('mission', {
 			rewards: [
 				'Wave 1: 2 530 000',
 				],
-			preferredSquads: [18,26],	
+			preferredSquads: [30,18,26],	
 			},
 			{
 			id: 18,
